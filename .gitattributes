@@ -1,0 +1,5 @@
+src/assets/highlight_3.png filter=lfs diff=lfs merge=lfs -text
+src/assets/highlight_4.png filter=lfs diff=lfs merge=lfs -text
+src/assets/HeroMontageO.mp4 filter=lfs diff=lfs merge=lfs -text
+src/assets/highlight_1.png filter=lfs diff=lfs merge=lfs -text
+src/assets/highlight_2.png filter=lfs diff=lfs merge=lfs -text

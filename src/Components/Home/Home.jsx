@@ -4,7 +4,6 @@ import React, {useRef} from 'react'
 import Faqs from '../Accordion/Faqs';
 import AboutFest from '../About/AboutFest';
 import PastEvents from '../PastEvents/PastEvents';
-import { Link } from 'react-router-dom';
 import {motion} from 'framer-motion'
 import HeroMontage from '../../assets/Videos/HeroMontagePC.mp4'
 

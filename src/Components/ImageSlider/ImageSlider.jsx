@@ -24,23 +24,23 @@ function ImageSlider() {
     }
 
 
-    const slides = [
-        {
-            url: 
-        },
-        {
-            url: 
-        },
-        {
-            url: 
-        },
-        {
-            url: 
-        },
-        {
-            url: 
-        },
-    ];
+    // const slides = [
+    //     {
+    //         url: 
+    //     },
+    //     {
+    //         url: 
+    //     },
+    //     {
+    //         url: 
+    //     },
+    //     {
+    //         url: 
+    //     },
+    //     {
+    //         url: 
+    //     },
+    // ];
 
 
 

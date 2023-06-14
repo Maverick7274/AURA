@@ -5,7 +5,6 @@ import Faqs from '../Accordion/Faqs';
 import AboutFest from '../About/AboutFest';
 import PastEvents from '../PastEvents/PastEvents';
 import {motion} from 'framer-motion'
-import HeroMontage from '../../assets/videos/HeroMontagePC.mp4'
 
 
 function Home() {
@@ -21,7 +20,7 @@ function Home() {
     <>
         <div className='hero h-screen mb-[7rem]'>
           <div className='h-full w-full'>
-            <video src={HeroMontage} className='object-cover w-full h-full' autoPlay loop muted />
+            <video src="https://res.cloudinary.com/djqnbowat/video/upload/v1686743623/assets/videos/HeroMontagePC_qk6sx5.mp4" className='object-cover w-full h-full' autoPlay loop muted />
           </div>
           <div className='hero-overlay bg-opacity-60'></div>
           <div className='absolute w-full h-full flex flex-col justify-center items-center z-[100] text-center text-white'>

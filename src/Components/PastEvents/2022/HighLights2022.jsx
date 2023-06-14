@@ -1,12 +1,6 @@
 import {motion} from 'framer-motion'
 import ButtonComponent from '../../ButtonComponent'
 import Breadcrumbs from '../../Breadcrumbs'
-import showcase_1 from '../../../assets/Images/preEvent/showcase_1.jpg'
-import showcase_19 from '../../../assets/Images/fashionSegment/showcase_19.jpg'
-import showcase_30 from '../../../assets/Images/felicitation/showcase_30.jpg'
-import showcase_81 from '../../../assets/Images/celebrityNight/showcase_81.jpg'
-import showcase_83 from '../../../assets/Images/postEvent/showcase_83.jpeg'
-
 
 function HighLights2022() {
   
@@ -22,11 +16,11 @@ function HighLights2022() {
         <motion.h1 variants={variants} initial='hidden' animate='visible' className='sm:text-[4rem] text-[2.6rem] font-rubik text-center font-bold'>AURA 2022</motion.h1>
       </div>
       <div className='flex flex-wrap justify-center items-center gap-[3rem] sm:flex-row md:flex-col xl:flex-row'>
-        <ButtonComponent cover={showcase_1} link='/preEvent' Heading='Pre Event'/>
-        <ButtonComponent cover={showcase_19} link='/fashionShow' Heading='Fashion Show'/>
-        <ButtonComponent cover={showcase_81} link='/celebrityNight' Heading='Celebrity Night'/>
-        <ButtonComponent cover={showcase_30} link='/felicitation' Heading='Felicitation'/>
-        <ButtonComponent cover={showcase_83} link='/postEvent' Heading='Post Event'/>
+        <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1686743414/assets/images/PreEvent/showcase_1_ybrurw.jpg" link='/preEvent' Heading='Pre Event'/>
+        <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1686743400/assets/images/FashionSegment/showcase_19_k6lfhe.jpg" link='/fashionShow' Heading='Fashion Show'/>
+        <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1686743394/assets/images/CelebrityNight/showcase_81_sqlk54.jpg" link='/celebrityNight' Heading='Celebrity Night'/>
+        <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1686743424/assets/images/Felicitation/showcase_30_hmx5ij.jpg" link='/felicitation' Heading='Felicitation'/>
+        <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1686743436/assets/images/PostEvent/showcase_83_p7gcrl.jpg" link='/postEvent' Heading='Post Event'/>
       </div>
 
     </div>

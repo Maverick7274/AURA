@@ -1,74 +1,64 @@
-import showcase_1 from '../assets/Images/preEvent/showcase_1.jpg'
-import showcase_2 from '../assets/Images/preEvent/showcase_2.jpg'
-import showcase_3 from '../assets/Images/preEvent/showcase_3.jpg'
-import showcase_4 from '../assets/Images/preEvent/showcase_4.jpg'
-import showcase_5 from '../assets/Images/preEvent/showcase_5.jpg'
-import showcase_11 from '../assets/Images/preEvent/showcase_11.jpg'
-import showcase_12 from '../assets/Images/preEvent/showcase_12.jpg'
-import showcase_13 from '../assets/Images/preEvent/showcase_13.jpg'
-import showcase_41 from '../assets/Images/preEvent/showcase_41.jpg'
-
 const PreEventPhotos = [
     {
         id: 1,
         hash:  'LWE:0c?aD%M{~q-;IUNF_2xvM|WU',
-        photoURI: showcase_1,
+        photoURI: "https://res.cloudinary.com/djqnbowat/image/upload/v1686743414/assets/images/PreEvent/showcase_1_ybrurw.jpg",
         width: 650,
         height: 380,
     },
     {
         id: 2,
         hash:  'LTF={@%KtRoF~WNgRiog%3Wqob%M',
-        photoURI: showcase_2,
+        photoURI: "https://res.cloudinary.com/djqnbowat/image/upload/v1686743414/assets/images/PreEvent/showcase_2_hpgofz.jpg",
         width: 650,
         height: 380,
     },
     {
         id: 3,
         hash:  'LSG[Zu%h?cWF~9%MNa%M-4wIWBs,',
-        photoURI: showcase_3,
+        photoURI: "https://res.cloudinary.com/djqnbowat/image/upload/v1686743413/assets/images/PreEvent/showcase_3_dy0k6b.jpg",
         width: 650,
         height: 380,
     },
     {
         id: 4,
         hash:  'LID9^^Tgoj;d~o#+Wm%$?[-os$o#',
-        photoURI: showcase_4,
+        photoURI: "https://res.cloudinary.com/djqnbowat/image/upload/v1686743403/assets/images/PreEvent/showcase_4_tdxdiv.jpg",
         width: 650,
         height: 380,
     },
     {
         id: 5,
         hash:  'LBFh*OM|xsaP_Ms:i^bIm,baE1R*',
-        photoURI: showcase_5,
+        photoURI: "https://res.cloudinary.com/djqnbowat/image/upload/v1686743410/assets/images/PreEvent/showcase_5_eu4fmf.jpg",
         width: 650,
         height: 380,
     },
     {
         id: 6,
         hash: 'LVELjPE1E1t7~TE1Iro0?HIqNFn$',
-        photoURI: showcase_11,
+        photoURI: "https://res.cloudinary.com/djqnbowat/image/upload/v1686743404/assets/images/PreEvent/showcase_11_jg0jz5.jpg",
         width: 650,
         height: 380,
     },
     {
         id: 7,
         hash: 'L69P[,~ppbxb0e9aD*IoS~%2^js;',
-        photoURI: showcase_12,
+        photoURI: "https://res.cloudinary.com/djqnbowat/image/upload/v1686743394/assets/images/PreEvent/showcase_12_xtzjvd.jpg",
         width: 650,
         height: 380,
     },
     {
         id: 8,
         hash: 'L16j:t9IEd}sE1I;tRNZ01~TVa5m',
-        photoURI: showcase_13,
+        photoURI: "https://res.cloudinary.com/djqnbowat/image/upload/v1686743390/assets/images/PreEvent/showcase_13_nt5hgw.jpg",
         width: 650,
         height: 380,
     },
     {
         id: 9,
         hash: 'LED]YU-qInM|^l-:4:WA~UxuRjxs',
-        photoURI: showcase_41,
+        photoURI: "https://res.cloudinary.com/djqnbowat/image/upload/v1686743418/assets/images/PreEvent/showcase_41_innhbf.jpg",
         width: 650,
         height: 380,
     },

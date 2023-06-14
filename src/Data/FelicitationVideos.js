@@ -1,46 +1,37 @@
-import Felicitation_1 from "../assets/videos/Felicitation/Felicitation_1.mp4"
-import Felicitation_2 from "../assets/videos/Felicitation/Felicitation_2.mp4"
-import Felicitation_3 from "../assets/videos/Felicitation/Felicitation_3.mp4"
-import Felicitation_4 from "../assets/videos/Felicitation/Felicitation_4.mp4"
-import Felicitation_5 from "../assets/videos/Felicitation/Felicitation_5.mp4"
-import Felicitation_6 from "../assets/videos/Felicitation/Felicitation_6.mp4"
-import Felicitation_7 from "../assets/videos/Felicitation/Felicitation_7.mp4"
-
-
 const FelicitationVideos = [
     {
         id: 1,
-        videoURI: Felicitation_1,
+        videoURI: "https://res.cloudinary.com/djqnbowat/video/upload/v1686743467/assets/videos/felicitation/Felicitation_1_yskz1k.mp4",
         thumbnail: '',
     },
     {
         id: 2,
-        videoURI: Felicitation_2,
+        videoURI: "https://res.cloudinary.com/djqnbowat/video/upload/v1686743482/assets/videos/felicitation/Felicitation_2_unyywy.mp4",
         thumbnail: '',
     },
     {
         id: 3,
-        videoURI: Felicitation_3,
+        videoURI: "https://res.cloudinary.com/djqnbowat/video/upload/v1686743495/assets/videos/felicitation/Felicitation_3_eieb9o.mp4",
         thumbnail: '',
     },
     {
         id: 4,
-        videoURI: Felicitation_4,
+        videoURI: "https://res.cloudinary.com/djqnbowat/video/upload/v1686743484/assets/videos/felicitation/Felicitation_4_ox1tmu.mp4",
         thumbnail: '',
     },
     {
         id: 5,
-        videoURI: Felicitation_5,
+        videoURI: "https://res.cloudinary.com/djqnbowat/video/upload/v1686743477/assets/videos/felicitation/Felicitation_5_f6hbny.mp4",
         thumbnail: '',
     },
     {
         id: 6,
-        videoURI: Felicitation_6,
+        videoURI: "https://res.cloudinary.com/djqnbowat/video/upload/v1686743479/assets/videos/felicitation/Felicitation_6_wc6ync.mp4",
         thumbnail: '',
     },
     {
         id: 7,
-        videoURI: Felicitation_7,
+        videoURI: "https://res.cloudinary.com/djqnbowat/video/upload/v1686743515/assets/videos/felicitation/Felicitation_7_sctajo.mp4",
         thumbnail: '',
     },
 ]

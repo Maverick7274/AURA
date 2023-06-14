@@ -18,16 +18,16 @@ function Router() {
     <>
         <Navbar />
           <Routes>
-              <Route path='/AURA/' element={<Home />} />
-              <Route path='/AURA/about' element={<About/>} />
-              <Route path='/AURA/Highlights2022' element={<HighLights2022/>} />
-              <Route path="/AURA/PastYearEvents" element={<PastYearEvents/>}/>
-              <Route path="/AURA/contact" element={<Contact />}/>
-              <Route path="/AURA/CelebrityNight" element={<CelebrityNight/>}/>
-              <Route path="/AURA/PreEvent" element={<PreEvent/>}/>
-              <Route path="/AURA/FashionShow" element={<FashionShow/>}/>
-              <Route path="/AURA/Felicitation" element={<Felicitation/>}/>
-              <Route path="/AURA/PostEvent" element={<PostEvent/>}/>
+              <Route path='/AURA-website/' element={<Home />} />
+              <Route path='/AURA-website/about' element={<About/>} />
+              <Route path='/AURA-website/Highlights2022' element={<HighLights2022/>} />
+              <Route path="/AURA-website/PastYearEvents" element={<PastYearEvents/>}/>
+              <Route path="/AURA-website/contact" element={<Contact />}/>
+              <Route path="/AURA-website/CelebrityNight" element={<CelebrityNight/>}/>
+              <Route path="/AURA-website/PreEvent" element={<PreEvent/>}/>
+              <Route path="/AURA-website/FashionShow" element={<FashionShow/>}/>
+              <Route path="/AURA-website/Felicitation" element={<Felicitation/>}/>
+              <Route path="/AURA-website/PostEvent" element={<PostEvent/>}/>
           </Routes>
         <Footer />
     </>

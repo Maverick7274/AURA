@@ -18,16 +18,16 @@ function Router() {
     <>
         <Navbar />
           <Routes>
-              <Route path='/' element={<Home />} />
-              <Route path='/about' element={<About/>} />
-              <Route path='/Highlights2022' element={<HighLights2022/>} />
-              <Route path="/PastYearEvents" element={<PastYearEvents/>}/>
-              <Route path="/contact" element={<Contact />}/>
-              <Route path="/CelebrityNight" element={<CelebrityNight/>}/>
-              <Route path="/PreEvent" element={<PreEvent/>}/>
-              <Route path="/FashionShow" element={<FashionShow/>}/>
-              <Route path="/Felicitation" element={<Felicitation/>}/>
-              <Route path="/PostEvent" element={<PostEvent/>}/>
+              <Route path='/AURA/' element={<Home />} />
+              <Route path='/AURA/about' element={<About/>} />
+              <Route path='/AURA/Highlights2022' element={<HighLights2022/>} />
+              <Route path="/AURA/PastYearEvents" element={<PastYearEvents/>}/>
+              <Route path="/AURA/contact" element={<Contact />}/>
+              <Route path="/AURA/CelebrityNight" element={<CelebrityNight/>}/>
+              <Route path="/AURA/PreEvent" element={<PreEvent/>}/>
+              <Route path="/AURA/FashionShow" element={<FashionShow/>}/>
+              <Route path="/AURA/Felicitation" element={<Felicitation/>}/>
+              <Route path="/AURA/PostEvent" element={<PostEvent/>}/>
           </Routes>
         <Footer />
     </>

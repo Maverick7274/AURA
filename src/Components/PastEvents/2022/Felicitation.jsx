@@ -16,7 +16,7 @@ function Felicitation() {
   return (
     <div className='py-[5rem] px-[2rem]'>
         <div>
-        <Breadcrumbs link1="/PastYearEvents" link2="/Highlights2022" currentLink="/Felicitation" link1Name="Past Events" link2Name="AURA 2022" currentLinkName="Felicitation"/>
+        <Breadcrumbs link1="/AURA/PastYearEvents" link2="/AURA/Highlights2022" currentLink="/AURA/Felicitation" link1Name="Past Events" link2Name="AURA 2022" currentLinkName="Felicitation"/>
             <div>
                 <motion.h2 variants={variants} initial='hidden' whileInView='visible' className='sm:text-[3rem] text-[1.9rem] sm:text-left text-center font-space-grotesk font-[700]'>
                 Felicitation

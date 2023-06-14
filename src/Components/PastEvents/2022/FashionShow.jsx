@@ -15,7 +15,7 @@ function FashionShow() {
   return (
     <div className='py-[5rem] px-[2rem]'>
         <div>
-        <Breadcrumbs link1="/PastYearEvents" link2="/Highlights2022" currentLink="/Highlights2022/FashionShow" link1Name="Past Events" link2Name="AURA 2022" currentLinkName="Fashion Show"/>
+        <Breadcrumbs link1="/AURA/PastYearEvents" link2="/AURA/Highlights2022" currentLink="/AURA/FashionShow" link1Name="Past Events" link2Name="AURA 2022" currentLinkName="Fashion Show"/>
             <div>
             <motion.h2 variants={variants} initial='hidden' whileInView='visible' className='sm:text-[3rem] text-[1.9rem] sm:text-left text-center font-space-grotesk font-[700]'>
                 Fashion Show

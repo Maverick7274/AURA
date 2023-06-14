@@ -11,7 +11,7 @@ function HighLights2022() {
 
   return (
     <div className='h-auto gap-[3rem] py-[5rem] px-[2rem]'>
-      <Breadcrumbs link1="/" link2="/PastYearEvents" currentLink="/HighLights2022" link1Name="Home" link2Name="Past Events" currentLinkName="AURA 2022"/>
+      <Breadcrumbs link1="/AURA" link2="/AURA/PastYearEvents" currentLink="/AURA/HighLights2022" link1Name="Home" link2Name="Past Events" currentLinkName="AURA 2022"/>
       <div className=''>
         <motion.h1 variants={variants} initial='hidden' animate='visible' className='sm:text-[4rem] text-[2.6rem] font-rubik text-center font-bold'>AURA 2022</motion.h1>
       </div>

@@ -1,11 +1,10 @@
-import FashionSegment from "../assets/videos/FashionSegment/FashionSegment.mp4";
-import FashionSegment_1 from "../assets/videos/FashionSegment/FashionSegment1.mp4";
-import FashionSegment_2 from "../assets/videos/FashionSegment/FashionSegment2.mp4";
-import FashionSegment_3 from "../assets/videos/FashionSegment/FashionSegment3.mp4";
-import FashionSegment_4 from "../assets/videos/FashionSegment/FashionSegment4.mp4";
-import FashionSegment_5 from "../assets/videos/FashionSegment/FashionSegment5.mp4";
-import FashionSegment_6 from "../assets/videos/FashionSegment/FashionSegment6.mp4";
-// import FashionSegment_Thumbnail from "../assets/videos/CelebrityNight/Thumbnail/thumbnail_performance_video.png";
+import FashionSegment from "../assets/videos/fashionSegment/FashionSegment.mp4";
+import FashionSegment_1 from "../assets/videos/fashionSegment/FashionSegment1.mp4";
+import FashionSegment_2 from "../assets/videos/fashionSegment/FashionSegment2.mp4";
+import FashionSegment_3 from "../assets/videos/fashionSegment/FashionSegment3.mp4";
+import FashionSegment_4 from "../assets/videos/fashionSegment/FashionSegment4.mp4";
+import FashionSegment_5 from "../assets/videos/fashionSegment/FashionSegment5.mp4";
+import FashionSegment_6 from "../assets/videos/fashionSegment/FashionSegment6.mp4";
 
 
 const FashionShowVideos = [

@@ -1,5 +1,5 @@
-import Performance_Video from "../assets/videos/CelebrityNight/Performance_Video.mp4";
-import Performance_Video_Thumbnail from "../assets/videos/CelebrityNight/Thumbnail/thumbnail_performance_video.png";
+import Performance_Video from "../assets/videos/celebrityNight/Performance_Video.mp4";
+import Performance_Video_Thumbnail from "../assets/videos/celebrityNight/Thumbnail/thumbnail_performance_video.png";
 
 const CelebrityNightVideos = [
     {

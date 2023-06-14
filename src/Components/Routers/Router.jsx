@@ -23,11 +23,11 @@ function Router() {
               <Route path='/Highlights2022' element={<HighLights2022/>} />
               <Route path="/PastYearEvents" element={<PastYearEvents/>}/>
               <Route path="/contact" element={<Contact />}/>
-              <Route path="/Highlights2022/CelebrityNight" element={<CelebrityNight/>}/>
-              <Route path="/Highlights2022/PreEvent" element={<PreEvent/>}/>
-              <Route path="/Highlights2022/FashionShow" element={<FashionShow/>}/>
-              <Route path="/Highlights2022/Felicitation" element={<Felicitation/>}/>
-              <Route path="/Highlights2022/PostEvent" element={<PostEvent/>}/>
+              <Route path="/CelebrityNight" element={<CelebrityNight/>}/>
+              <Route path="/PreEvent" element={<PreEvent/>}/>
+              <Route path="/FashionShow" element={<FashionShow/>}/>
+              <Route path="/Felicitation" element={<Felicitation/>}/>
+              <Route path="/PostEvent" element={<PostEvent/>}/>
           </Routes>
         <Footer />
     </>

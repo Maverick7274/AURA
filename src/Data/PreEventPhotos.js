@@ -1,12 +1,12 @@
-import showcase_1 from '../assets/Images/PreEvent/showcase_1.jpg'
-import showcase_2 from '../assets/Images/PreEvent/showcase_2.jpg'
-import showcase_3 from '../assets/Images/PreEvent/showcase_3.jpg'
-import showcase_4 from '../assets/Images/PreEvent/showcase_4.jpg'
-import showcase_5 from '../assets/Images/PreEvent/showcase_5.jpg'
-import showcase_11 from '../assets/Images/PreEvent/showcase_11.jpg'
-import showcase_12 from '../assets/Images/PreEvent/showcase_12.jpg'
-import showcase_13 from '../assets/Images/PreEvent/showcase_13.jpg'
-import showcase_41 from '../assets/Images/PreEvent/showcase_41.jpg'
+import showcase_1 from '../assets/Images/preEvent/showcase_1.jpg'
+import showcase_2 from '../assets/Images/preEvent/showcase_2.jpg'
+import showcase_3 from '../assets/Images/preEvent/showcase_3.jpg'
+import showcase_4 from '../assets/Images/preEvent/showcase_4.jpg'
+import showcase_5 from '../assets/Images/preEvent/showcase_5.jpg'
+import showcase_11 from '../assets/Images/preEvent/showcase_11.jpg'
+import showcase_12 from '../assets/Images/preEvent/showcase_12.jpg'
+import showcase_13 from '../assets/Images/preEvent/showcase_13.jpg'
+import showcase_41 from '../assets/Images/preEvent/showcase_41.jpg'
 
 const PreEventPhotos = [
     {

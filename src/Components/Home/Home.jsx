@@ -5,7 +5,7 @@ import Faqs from '../Accordion/Faqs';
 import AboutFest from '../About/AboutFest';
 import PastEvents from '../PastEvents/PastEvents';
 import {motion} from 'framer-motion'
-import HeroMontage from '../../assets/Videos/HeroMontagePC.mp4'
+import HeroMontage from '../../assets/videos/HeroMontagePC.mp4'
 
 
 function Home() {

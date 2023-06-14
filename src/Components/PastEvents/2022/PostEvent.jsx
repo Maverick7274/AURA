@@ -15,7 +15,7 @@ function PostEvent() {
   return (
     <div className='py-[5rem] px-[2rem]'>
         <div>
-        <Breadcrumbs link1="/PastYearEvents" link2="/Highlights2022" currentLink="/Highlights2022/PostEvent" link1Name="Past Events" link2Name="AURA 2022" currentLinkName="Post Event"/>
+        <Breadcrumbs link1="/PastYearEvents" link2="/Highlights2022" currentLink="/PostEvent" link1Name="Past Events" link2Name="AURA 2022" currentLinkName="Post Event"/>
             <div>
                 <motion.h2 variants={variants} initial='hidden' whileInView='visible' className='sm:text-[3rem] text-[1.9rem] sm:text-left text-center font-space-grotesk font-[700]'>
                 Post Event

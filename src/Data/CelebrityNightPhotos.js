@@ -1,7 +1,7 @@
-import showcase_21 from '../assets/Images/CelebrityNight/showcase_21.JPG'
-import showcase_22 from '../assets/Images/CelebrityNight/showcase_22.JPG'
-import showcase_80 from '../assets/Images/CelebrityNight/showcase_80.JPG'
-import showcase_81 from '../assets/Images/CelebrityNight/showcase_81.JPG'
+import showcase_21 from '../assets/Images/celebrityNight/showcase_21.jpg'
+import showcase_22 from '../assets/Images/celebrityNight/showcase_22.jpg'
+import showcase_80 from '../assets/Images/celebrityNight/showcase_80.jpg'
+import showcase_81 from '../assets/Images/celebrityNight/showcase_81.jpg'
 
 
 const CelebrityNightPhotos = [

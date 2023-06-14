@@ -1,5 +1,5 @@
-import showcase_82 from '../Assets/Images/PostEvent/showcase_82.jpeg'
-import showcase_83 from '../Assets/Images/PostEvent/showcase_83.jpeg'
+import showcase_82 from '../assets/Images/PostEvent/showcase_82.jpeg'
+import showcase_83 from '../assets/Images/PostEvent/showcase_83.jpeg'
 
 const PostEventPhotos = [
     {

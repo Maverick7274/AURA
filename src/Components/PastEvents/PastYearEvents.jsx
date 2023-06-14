@@ -1,4 +1,4 @@
-import cover2022 from '../../Assets/Images/cover2022.jpg'
+import cover2022 from '../../assets/Images/cover2022.jpg'
 import Breadcrumbs from '../Breadcrumbs1'
 import ButtonComponent from '../ButtonComponent'
 

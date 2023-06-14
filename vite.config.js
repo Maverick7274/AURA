@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '',
+  base: '/AURA/',
   server: {
     watch: {
       usePolling: true,
@@ -12,11 +12,5 @@ export default defineConfig({
     host: true, // needed for the Docker Container port mapping to work
     strictPort: true,
     port: 3000,
-  },
-  // build.rollupOptions.external
-  build: {
-    outDir: 'build',
-    assetsDir: 'assets',
-    assetsInclude: ['**/*.png', '**/*.jpg', '**/*.svg', '**/*.gif', '**/*.ico'],
   },
 })

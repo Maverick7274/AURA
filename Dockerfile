@@ -6,6 +6,5 @@ COPY package.json .
 RUN npm install
 
 COPY . .
-COPY ./src/assets /app/src/assets
 
 CMD [ "npm", "run", "build" ]

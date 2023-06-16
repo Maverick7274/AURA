@@ -5,7 +5,7 @@ import logo from '../../assets/amity-logo.svg'
 function Navbar() {
   return (
     <>
-        <div className="navbar fixed top-0 z-[1000] left-0 px-[4rem] bg-base-100 h-[80px] border-b-2 border-b-white">
+        <div className="navbar fixed top-0 z-[1000] left-0 px-[4rem] bg-base-100 border-b-2 border-b-white">
             <div className="navbar-start">
                 <div className="dropdown font-space-mono text-[2rem] font-[500]">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -16,7 +16,7 @@ function Navbar() {
                         <a><NavLink to="/AURA-website/">Home</NavLink></a>
                         <ul className="p-2">
                         <li><Link activeClass="active" to="aboutfest" spy={true} smooth={true} offset={-120} duration={500}>About</Link></li>
-                                <li><Link activeClass="active" to="venue" spy={true} smooth={true} offset={-120} duration={500}>Venue</Link></li>
+                                <li><Link activeClass="active" to="venue" spy={true} smooth={true} offset={0} duration={500}>Venue</Link></li>
                                 <li><Link activeClass="active" to="pastevents" spy={true} smooth={true} offset={-120} duration={500}>Past Events</Link></li>
                                 <li><Link activeClass="active" to="faq" spy={true} smooth={true} offset={-120} duration={500}>FAQs</Link></li>
                         </ul>
@@ -26,7 +26,7 @@ function Navbar() {
                     <li><NavLink to='/AURA-website/PastYearEvents'>Past Events</NavLink></li>
                     <li><NavLink to='/AURA-website/Sponsors'>Sponsors</NavLink></li>
                     <li>
-                        <Link activeClass="active" to="venue" spy={true} smooth={true} offset={-120} duration={500}><span className="badge badge-accent badge-xs badge-outline">NEW</span>Venue</Link>
+                        <Link activeClass="active" to="venue" spy={true} smooth={true} offset={0} duration={500}><span className="badge badge-accent badge-xs badge-outline">NEW</span>Venue</Link>
                     </li>
                 </ul>
                 </div>
@@ -44,7 +44,7 @@ function Navbar() {
                             <summary><NavLink to="/AURA-website/">Home</NavLink></summary>
                             <ul className="p-2">
                                 <li><Link activeClass="active" to="aboutfest" spy={true} smooth={true} offset={-120} duration={500}>About</Link></li>
-                                <li><Link activeClass="active" to="venue" spy={true} smooth={true} offset={-120} duration={500}>Venue</Link></li>
+                                <li><Link activeClass="active" to="venue" spy={true} smooth={true} offset={0} duration={500}>Venue</Link></li>
                                 <li><Link activeClass="active" to="pastevents" spy={true} smooth={true} offset={-120} duration={500}>Past Events</Link></li>
                                 <li><Link activeClass="active" to="faq" spy={true} smooth={true} offset={-120} duration={500}>FAQs</Link></li>
                             </ul>
@@ -55,7 +55,7 @@ function Navbar() {
                     <li><NavLink to='/AURA-website/PastYearEvents'>Past Events</NavLink></li>
                     <li><NavLink to='/AURA-website/Sponsors'>Sponsors</NavLink></li>
                     <li>
-                        <Link activeClass="active" to="venue" spy={true} smooth={true} offset={-120} duration={500}><span className="badge badge-success badge-outline">NEW</span>Venue</Link>
+                        <Link activeClass="active" to="venue" spy={true} smooth={true} offset={0} duration={500}><span className="badge badge-success badge-outline">NEW</span>Venue</Link>
                     </li>
                 </ul>
             </div>

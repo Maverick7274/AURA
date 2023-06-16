@@ -7,11 +7,11 @@ function Venue() {
       }
 
   return (
-    <div id='venue' className="flex flex-col justify-center items-center sm:gap-[5rem] gap-[3rem] pb-[3rem] sm:px-[5rem] px-[3rem]">
+    <div id='venue' className="h-screen flex flex-col justify-center items-center sm:gap-[5rem] gap-[3rem] pb-[3rem] sm:px-[5rem] px-[3rem]">
         <div>
         <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Venue</motion.h1>
         </div>
-        <div className='flex sm:flex-col xl:flex-row 2xl:flex-row flex-col justify-center items-center gap-[3rem]'>
+        <div className='flex sm:flex-col xl:flex-row-reverse 2xl:flex-row flex-col justify-center items-center gap-[3rem]'>
             <div>
             <iframe className='w-[280px] h-[157.5px] sm:w-[560px] sm:h-[315px] min-[280px]:w-[300px] min-[280px]:h-[157px]'
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.4811448882915!2d77.48197357604737!3d28.46505327575662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cea09ba0d2aa7%3A0xcdf825a25f9f7d78!2sAmity%20University%2C%20Greater%20Noida!5e0!3m2!1sen!2sin!4v1686910260793!5m2!1sen!2sin"

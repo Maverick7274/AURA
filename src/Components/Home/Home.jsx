@@ -5,6 +5,7 @@ import Faqs from '../Accordion/Faqs';
 import AboutFest from '../About/AboutFest';
 import PastEvents from '../PastEvents/PastEvents';
 import {motion} from 'framer-motion'
+import Venue from '../Venue/Venue';
 
 
 function Home() {
@@ -41,6 +42,10 @@ function Home() {
 
         <div className='pt-[8rem]'>
           <AboutFest />
+        </div>
+
+        <div className='pt-[4.3rem]'>
+          <Venue />
         </div>
 
         <div>

@@ -28,6 +28,7 @@ export default {
       'patua-one': ["Patua One", "cursive"],
       'titan-one': ["Titan One", "cursive"],
       'kalam': ["Kalam", "cursive"],
+      'tilt-prism': ["Tilt Prism", "cursive"],
     },
     extend: {},
   },

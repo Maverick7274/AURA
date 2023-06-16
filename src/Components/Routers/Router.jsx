@@ -11,6 +11,7 @@ import PreEvent from "../PastEvents/2022/PreEvent"
 import FashionShow from "../PastEvents/2022/FashionShow"
 import Felicitation from "../PastEvents/2022/Felicitation"
 import PostEvent from "../PastEvents/2022/PostEvent"
+import Sponsors from "../Sponsors/Sponsors"
 
 
 function Router() {
@@ -28,6 +29,7 @@ function Router() {
               <Route path="/AURA-website/FashionShow" element={<FashionShow/>}/>
               <Route path="/AURA-website/Felicitation" element={<Felicitation/>}/>
               <Route path="/AURA-website/PostEvent" element={<PostEvent/>}/>
+              <Route path="/AURA-website/Sponsors" element={<Sponsors/>}/>
           </Routes>
         <Footer />
     </>

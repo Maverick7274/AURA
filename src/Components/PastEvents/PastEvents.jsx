@@ -14,7 +14,7 @@ function PastEvents() {
       }
     
   return (
-    <div className=' min-[280px]:pb-[1rem] pb-[4rem] sm:px-[5rem] px-[3rem]'>
+    <div id='pastevents' className=' min-[280px]:pb-[1rem] pb-[4rem] sm:px-[5rem] px-[3rem]'>
         <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Past Events</motion.h1>
         <motion.div variants={variants} initial='hidden' whileInView='visible' className=''>
             <div className='flex flex-col font-space-grotesk min-[280px]:text-[1.1rem] text-[0.9rem] sm:text-[1.2rem] text-justify sm:px-[2rem] px-[0.9rem]'>

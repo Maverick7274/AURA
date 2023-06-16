@@ -9,7 +9,7 @@ const variants = {
 
 function Faqs() {
   return (
-        <div className="flex flex-col gap-[2rem] sm:mt-[5rem] mt-[10rem]">
+        <div id='faq' className="flex flex-col gap-[2rem] sm:mt-[5rem] mt-[10rem]">
             <div className="flex justify-center items-center">
                 <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="min-[280px]:text-[1.5rem] sm:text-[4rem] text-[1.2rem] font-bold font-rubik">Frequently Asked Questions</motion.h1>
             </div>

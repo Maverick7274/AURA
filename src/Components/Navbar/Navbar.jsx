@@ -12,7 +12,15 @@ function Navbar() {
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </label>
                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><NavLink to="/AURA-website/">Home</NavLink></li>
+                    <li>
+                        <a><NavLink to="/AURA-website/">Home</NavLink></a>
+                        <ul className="p-2">
+                        <li><Link activeClass="active" to="aboutfest" spy={true} smooth={true} offset={-120} duration={500}>About</Link></li>
+                                <li><Link activeClass="active" to="venue" spy={true} smooth={true} offset={-120} duration={500}>Venue</Link></li>
+                                <li><Link activeClass="active" to="pastevents" spy={true} smooth={true} offset={-120} duration={500}>Past Events</Link></li>
+                                <li><Link activeClass="active" to="faq" spy={true} smooth={true} offset={-120} duration={500}>FAQs</Link></li>
+                        </ul>
+                    </li>
                     <li><NavLink to='/AURA-website/about'>About</NavLink></li>
                     <li><NavLink to='/AURA-website/contact'>Contact Us</NavLink></li>
                     <li><NavLink to='/AURA-website/PastYearEvents'>Past Events</NavLink></li>
@@ -31,13 +39,23 @@ function Navbar() {
             </div>
             <div className="navbar-center hidden lg:flex font-space-mono font-[700]">
                 <ul className="menu menu-horizontal px-1">
-                    <li><NavLink to="/AURA-website/">Home</NavLink></li>
+                    <li tabIndex={0}>
+                        <details>
+                            <summary><NavLink to="/AURA-website/">Home</NavLink></summary>
+                            <ul className="p-2">
+                                <li><Link activeClass="active" to="aboutfest" spy={true} smooth={true} offset={-120} duration={500}>About</Link></li>
+                                <li><Link activeClass="active" to="venue" spy={true} smooth={true} offset={-120} duration={500}>Venue</Link></li>
+                                <li><Link activeClass="active" to="pastevents" spy={true} smooth={true} offset={-120} duration={500}>Past Events</Link></li>
+                                <li><Link activeClass="active" to="faq" spy={true} smooth={true} offset={-120} duration={500}>FAQs</Link></li>
+                            </ul>
+                        </details>
+                    </li>
                     <li><NavLink to='/AURA-website/about'>About</NavLink></li>
                     <li><NavLink to='/AURA-website/contact'>Contact Us</NavLink></li>
                     <li><NavLink to='/AURA-website/PastYearEvents'>Past Events</NavLink></li>
                     <li><NavLink to='/AURA-website/Sponsors'>Sponsors</NavLink></li>
                     <li>
-                    <Link activeClass="active" to="venue" spy={true} smooth={true} offset={-120} duration={500}><span className="badge badge-success badge-outline">NEW</span>Venue</Link>
+                        <Link activeClass="active" to="venue" spy={true} smooth={true} offset={-120} duration={500}><span className="badge badge-success badge-outline">NEW</span>Venue</Link>
                     </li>
                 </ul>
             </div>

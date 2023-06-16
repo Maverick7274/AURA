@@ -9,7 +9,7 @@ function AboutFest() {
         visible: { y:0, opacity: 1 },
       }
   return (
-    <div className='flex flex-col justify-center items-center sm:gap-[5rem] gap-[3rem] pb-[3rem] sm:px-[5rem] px-[3rem]'>
+    <div id='aboutfest' className='flex flex-col justify-center items-center sm:gap-[5rem] gap-[3rem] pb-[3rem] sm:px-[5rem] px-[3rem]'>
         <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">About AURA</motion.h1>
         <div className='flex justify-center items-center sm:flex-col xl:flex-row 2xl:flex-row flex-col sm:gap-[2rem] xl:gap-0 gap-[2rem]'>
             <motion.div variants={variants} initial='hidden' whileInView='visible' className='flex justify-center items-center'>

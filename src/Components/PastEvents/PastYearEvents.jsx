@@ -13,7 +13,7 @@ function PastYearEvents() {
             </div>
         </div>
         <div className='flex flex-wrap justify-center items-center gap-[3rem] sm:flex-row md:flex-col xl:flex-row'>
-          <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1686746572/cover2022_u4zre2.jpg" link="/AURA-website/Highlights2022" Heading='AURA 2022'/>
+          <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1686746572/cover2022_u4zre2.jpg" link="/AURA-website/AURA2022Days" Heading='AURA 2022'/>
         </div>
     </div>
   )

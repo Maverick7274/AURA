@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import {motion, useScroll, useTransform} from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 function AboutFest() {
 
@@ -10,7 +11,7 @@ function AboutFest() {
       }
   return (
     <div id='aboutfest' className='flex flex-col justify-center items-center sm:gap-[5rem] gap-[3rem] pb-[3rem] sm:px-[5rem] px-[3rem]'>
-        <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">About AURA</motion.h1>
+        <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">About <span className='font-josefin-sans font-bold'>AURA</span></motion.h1>
         <div className='flex justify-center items-center sm:flex-col xl:flex-row 2xl:flex-row flex-col sm:gap-[2rem] xl:gap-0 gap-[2rem]'>
             <motion.div variants={variants} initial='hidden' whileInView='visible' className='flex justify-center items-center'>
                 <iframe className='w-[280px] h-[157.5px] sm:w-[560px] sm:h-[315px] min-[280px]:w-[300px] min-[280px]:h-[157px]' src="" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -25,9 +26,9 @@ function AboutFest() {
             </motion.div>
         </div>
         <motion.div variants={variants} initial='hidden' whileInView='visible' className='grid justify-end'>
-            <button className='btn btn-outline btn-primary w-[10rem]'>
+            <Link to='/AURA-website/about' className='btn btn-outline btn-primary w-[10rem]'>
                 Learn More
-            </button>
+            </Link>
         </motion.div>
     </div>
   )

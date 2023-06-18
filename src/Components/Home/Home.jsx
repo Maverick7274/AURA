@@ -26,7 +26,7 @@ function Home() {
           <div className='hero-overlay bg-opacity-60'></div>
           <div className='absolute w-full h-full flex flex-col justify-center items-center z-[100] text-center text-white'>
             <div className='w-full h-full flex flex-col justify-center items-center'>
-              <motion.h1 variants={variants} initial='hidden' animate='visible' transition={{duration:0.6}} className='mb-5 pt-[5rem] px-[3rem] min-[280px]:text-[2rem] sm:text-[4rem] text-[3rem] font-bold font-rubik text-center'>Welcome to <span className='font-righteous font-bold'>AURA Fest 2023</span>!</motion.h1>
+              <motion.h1 variants={variants} initial='hidden' animate='visible' transition={{duration:0.6}} className='mb-5 pt-[5rem] px-[3rem] min-[280px]:text-[2rem] sm:text-[4rem] text-[3rem] font-bold font-rubik text-center'>Welcome to <span className='font-josefin-sans font-bold'>AURA FEST 2023</span>!</motion.h1>
               <motion.h2 variants={variants} initial='hidden' animate='visible' transition={{delay:0.3, duration:0.6}} className='mb-5 min-[280px]:text-[1rem] sm:text-[3.5rem] text-[1.7rem] text-center font-space-grotesk'>Unleash Your Passion, Embrace the Extraordinary!</motion.h2>
               <motion.p variants={variants} initial='hidden' animate='visible' transition={{delay:0.3, duration:0.5}} className='flex justify-center font-patua-one sm:flex hidden'>
                 Are you ready to seize the spotlight and let your brilliance shine through!?

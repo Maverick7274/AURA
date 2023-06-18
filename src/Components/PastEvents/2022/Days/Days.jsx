@@ -5,7 +5,7 @@ function Days() {
   return (
     <div className='h-auto flex flex-col justify-center items-center gap-[5rem]'>
         <div className="mt-[6rem]">
-            <Breadcrumbs link1="/AURA-website/PastYearEvents" currentLink="/AURA-website/AURA2022Days" link1Name="Past Events" link2Name="AURA 2022" currentLinkName="Days"/>
+            <Breadcrumbs link1="/AURA-website/PastYearEvents" currentLink="/AURA-website/AURA2022Days" link1Name="Past Year Events" link2Name="AURA 2022" currentLinkName="Days"/>
         </div>
         <div className=''>
             <div className=''>

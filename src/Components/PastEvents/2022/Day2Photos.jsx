@@ -14,7 +14,7 @@ function Day2Photos() {
     <div className='py-[5rem] px-[2rem]'>
         <div>
         <div className='mt-[2rem]'>
-            <Breadcrumbs link1="/AURA-website/PastYearEvents" link2="/AURA-website/Highlights2022" currentLink="/AURA-website/FashionShow" link1Name="Past Events" link2Name="AURA 2022" currentLinkName="Fashion Show"/>
+        <Breadcrumbs link1="/AURA-website/AURA2022Days" link2="/AURA-website/Highlights2022Day2" currentLink="/AURA-website/Day2Photos" link1Name="Days" link2Name="Day 2" currentLinkName="Day 2 - Photos"/>
           </div>
             <div>
             <motion.h2 variants={variants} initial='hidden' whileInView='visible' className='sm:text-[3rem] text-[1.9rem] sm:text-left text-center font-space-grotesk font-[700]'>

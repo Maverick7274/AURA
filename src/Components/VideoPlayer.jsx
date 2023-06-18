@@ -17,7 +17,7 @@ function VideoPlayer(props) {
           autoPlay={false}
           controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
           poster={thumbnail}>
-            <source src={videoURI} type='video/webm'/>
+            <source src={videoURI} />
         </Video>
 
         <div className='py-[1rem] text-center'>

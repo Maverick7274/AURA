@@ -33,7 +33,7 @@ function Navbar() {
                 <div className=''>
                 <NavLink to='/AURA-website/' className="cursor-pointer hidden lg:flex flex gap-[1rem] justify-center items-center">
                     <img src={logo} width='50px' height='50px'/>
-                    <span className='font-josefin-sans font-[700] normal-case text-4xl'>AURA FEST</span>
+                    <span className='font-josefin-sans font-[700] normal-case text-3xl'>AURA FEST</span>
                 </NavLink>
                 </div>
             </div>

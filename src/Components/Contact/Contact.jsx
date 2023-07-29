@@ -1,10 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {motion} from 'framer-motion'
 import {Link} from 'react-scroll'
 import mouseScrollDown from '../../assets/mouseScrollDown.svg'
 
 const Contact = () => {
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
 
   const variants = {
     hidden: { y:35, opacity: 0 },

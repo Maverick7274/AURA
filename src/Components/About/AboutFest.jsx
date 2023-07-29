@@ -1,9 +1,14 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, {useEffect} from 'react'
 import {motion, useScroll, useTransform} from 'framer-motion'
 import { Link } from 'react-router-dom'
 
 function AboutFest() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+      
 
     const variants = {
         hidden: { y:135, opacity: 0 },

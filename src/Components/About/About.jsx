@@ -1,6 +1,10 @@
+
+import { useEffect } from 'react'
 import {motion} from 'framer-motion'
 import {Link} from 'react-scroll'
 import mouseScrollDown from '../../assets/mouseScrollDown.svg'
+
+
 function About() {
 
   const variants = {
@@ -9,6 +13,12 @@ function About() {
     hidden1 : {y:-35, opacity:0},
     visible1 : {y:0, opacity:1}
   }
+
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
 
 
 

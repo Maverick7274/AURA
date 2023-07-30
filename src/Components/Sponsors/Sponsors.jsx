@@ -27,50 +27,40 @@ const Sponsors = () => {
               <motion.h1 variants={variants} initial='hidden' animate='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Sponsers</motion.h1>
             </div>
 
-            <div className="w-64 carousel rounded-box">
-              <div className="carousel-item w-full">
-                <div className="carousel-card">
-                  <h1>Hello world</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non blanditiis sequi voluptatum. Consequuntur nesciunt rerum sit reiciendis repudiandae dolores?</p>
+
+            <div className="carousel w-1/2">
+              <div id="item1" className="carousel-item py-5 w-full">
+                <div className="carousel-card flex flex-col justify-center items-center">
+                  <h1 className='py-[1rem] text-center min-[100px]:text-[2rem] sm:text-[2rem] text-[2rem] font-bold font-rubik'>Company 1</h1>
+                  <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non blanditiis sequi voluptatum. Consequuntur nesciunt rerum sit reiciendis repudiandae dolores?</p>
                 </div>
               </div> 
-              <div className="carousel-item w-full">
+              <div id="item2" className="carousel-item py-5 w-full">
                 <div className="carousel-card">
-                  <h1>Hello world</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non blanditiis sequi voluptatum. Consequuntur nesciunt rerum sit reiciendis repudiandae dolores?</p>
+                  <h1 className='py-[1rem] text-center min-[100px]:text-[2rem] sm:text-[2rem] text-[2rem] font-bold font-rubik'>Company 2</h1>
+                  <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non blanditiis sequi voluptatum. Consequuntur nesciunt rerum sit reiciendis repudiandae dolores?</p>
                 </div>
               </div> 
-              <div className="carousel-item w-full">
-                <div className="carousel-card">
-                  <h1>Hello world</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non blanditiis sequi voluptatum. Consequuntur nesciunt rerum sit reiciendis repudiandae dolores?</p>
+              <div id="item3" className="carousel-item py-5 w-full">
+              <div className="carousel-card">
+                  <h1 className='py-[1rem] text-center min-[100px]:text-[2rem] sm:text-[2rem] text-[2rem] font-bold font-rubik'>Company 3</h1>
+                  <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non blanditiis sequi voluptatum. Consequuntur nesciunt rerum sit reiciendis repudiandae dolores?</p>
                 </div>
               </div> 
-              <div className="carousel-item w-full">
-                <div className="carousel-card">
-                  <h1>Hello world</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non blanditiis sequi voluptatum. Consequuntur nesciunt rerum sit reiciendis repudiandae dolores?</p>
-                </div>
-              </div> 
-              <div className="carousel-item w-full">
-                <div className="carousel-card">
-                  <h1>Hello world</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non blanditiis sequi voluptatum. Consequuntur nesciunt rerum sit reiciendis repudiandae dolores?</p>
-                </div>
-              </div> 
-              <div className="carousel-item w-full">
-                <div className="carousel-card">
-                  <h1>Hello world</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non blanditiis sequi voluptatum. Consequuntur nesciunt rerum sit reiciendis repudiandae dolores?</p>
-                </div>
-              </div> 
-              <div className="carousel-item w-full">
-                <div className="carousel-card">
-                  <h1>Hello world</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non blanditiis sequi voluptatum. Consequuntur nesciunt rerum sit reiciendis repudiandae dolores?</p>
+              <div id="item4" className="carousel-item py-5 w-full">
+              <div className="carousel-card">
+                  <h1 className='py-[1rem] text-center min-[100px]:text-[2rem] sm:text-[2rem] text-[2rem] font-bold font-rubik'>Company 4</h1>
+                  <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non blanditiis sequi voluptatum. Consequuntur nesciunt rerum sit reiciendis repudiandae dolores?</p>
                 </div>
               </div>
+            </div> 
+            <div className="flex justify-center w-full py-2 gap-2">
+              <a href="#item1" className="btn btn-xs">1</a> 
+              <a href="#item2" className="btn btn-xs">2</a> 
+              <a href="#item3" className="btn btn-xs">3</a> 
+              <a href="#item4" className="btn btn-xs">4</a>
             </div>
+
   
             {/* <div className="px-[20rem] text-justify">
               <motion.p variants={variants} initial='hidden' animate='visible' className="text-[1.2rem] font-space-grotesk">

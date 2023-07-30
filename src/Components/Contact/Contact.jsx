@@ -30,7 +30,7 @@ const Contact = () => {
             <form action="#" onSubmit={e => {e.preventDefault();}}>
               <div className="form-control w-full max-w-xs">
 
-                <label className="label">
+                <label className="label mt-3">
                   <span className="label-text">What is your name?</span>
                   {/* <span className="label-text-alt">Top Right label</span> */}
                 </label>
@@ -40,7 +40,7 @@ const Contact = () => {
                   <span className="label-text-alt">Bottom Right label</span>
                 </label> */}
 
-                <label className="label">
+                <label className="label  mt-3">
                   <span className="label-text">What is your email?</span>
                   {/* <span className="label-text-alt">Top Right label</span> */}
                 </label>
@@ -50,7 +50,17 @@ const Contact = () => {
                   <span className="label-text-alt">Bottom Right label</span>
                 </label> */}
 
-                <label className="label">
+                <label className="label  mt-3">
+                  <span className="label-text">What is your phone?</span>
+                  {/* <span className="label-text-alt">Top Right label</span> */}
+                </label>
+                <input type="tel" placeholder="Type here" className="input input-bordered w-full max-w-xs" required/>
+                {/* <label className="label">
+                  <span className="label-text-alt">Bottom Left label</span>
+                  <span className="label-text-alt">Bottom Right label</span>
+                </label> */}
+
+                <label className="label  mt-3">
                   <span className="label-text">Your message goes here</span>
                   {/* <span className="label-text-alt">Alt label</span> */}
                 </label>

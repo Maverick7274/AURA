@@ -1,7 +1,15 @@
+import { useEffect } from 'react'
 import Breadcrumbs from '../Breadcrumbs1'
 import ButtonComponent from '../ButtonComponent'
 
+
 function PastYearEvents() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
+
   return (
     <div className='h-auto flex flex-col justify-center items-center gap-[5rem]'>
         <Breadcrumbs link1="/AURA-website/" currentLink="/AURA-website/PastYearEvents" link1Name="Home" currentLinkName="Past Year Events"/>

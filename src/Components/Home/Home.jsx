@@ -1,6 +1,6 @@
 // import ImageSlider from '../ImageSlider/ImageSlider.jsx'
 // eslint-disable-next-line no-unused-vars
-import React, {useRef} from 'react'
+import React, {useEffect} from 'react'
 import Faqs from '../Accordion/Faqs';
 import AboutFest from '../About/AboutFest';
 import PastEvents from '../PastEvents/PastEvents';
@@ -9,6 +9,11 @@ import Venue from '../Venue/Venue';
 
 
 function Home() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
 
   const variants = {
     hidden: { y:35, opacity: 0 },

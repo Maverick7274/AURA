@@ -5,7 +5,7 @@ import logo from '../../assets/amity-logo.svg'
 function Navbar() {
   return (
     <>
-        <div className="navbar fixed top-0 z-[1000] left-0 px-[4rem] bg-base-100 border-b-2 border-b-white">
+        <div className="navbar fixed top-0 z-[1000] left-0 px-[4rem] bg-base-100">
             <div className="navbar-start">
                 <div className="dropdown font-space-mono text-[2rem] font-[500]">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">

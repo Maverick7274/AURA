@@ -2,7 +2,7 @@ import auralogo from '../../assets/aura-logo.svg'
 function Footer() {
   return (
     <div className="mt-[5rem]">
-        <footer className="footer footer-center px-10 py-5 bg-primary text-primary-content">
+        <footer className="footer footer-center px-10 py-5 bg-secondary text-primary-content">
             <div>
                 <img src={auralogo} width="200px" height="200px" />
                 <p className="font-bold">

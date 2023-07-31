@@ -19,54 +19,21 @@ const Contact = () => {
 
   return (
     <>
-      <div className="h-auto">
+      <div className="h-auto w-full">
         
-        <div className="hero h-screen">
-          <div id='contact' className='flex flex-col justify-center items-center'>
-            <div className="">
+        <div className="hero h-screen w-full">
+          <div id='contact' className='flex flex-col justify-center items-center w-full'>
+            <div className="w-full">
               <motion.h1 variants={variants} initial='hidden' animate='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Contact Us</motion.h1>
             </div>
 
             <form action="#" onSubmit={e => {e.preventDefault();}}>
-              <div className="form-control w-full max-w-xs">
+              <div className='w-full'>
+                <div className="form-control w-full">
+                <input type="text" placeholder="Type here" className="input input-bordered input-info w-full max-w-xs" />
 
-                <label className="label mt-3">
-                  <span className="label-text">What is your name?</span>
-                  {/* <span className="label-text-alt">Top Right label</span> */}
-                </label>
-                <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" required/>
-                {/* <label className="label">
-                  <span className="label-text-alt">Bottom Left label</span>
-                  <span className="label-text-alt">Bottom Right label</span>
-                </label> */}
-
-                <label className="label  mt-3">
-                  <span className="label-text">What is your email?</span>
-                  {/* <span className="label-text-alt">Top Right label</span> */}
-                </label>
-                <input type="email" placeholder="Type here" className="input input-bordered w-full max-w-xs" required/>
-                {/* <label className="label">
-                  <span className="label-text-alt">Bottom Left label</span>
-                  <span className="label-text-alt">Bottom Right label</span>
-                </label> */}
-
-                <label className="label  mt-3">
-                  <span className="label-text">What is your phone?</span>
-                  {/* <span className="label-text-alt">Top Right label</span> */}
-                </label>
-                <input type="tel" placeholder="Type here" className="input input-bordered w-full max-w-xs" required/>
-                {/* <label className="label">
-                  <span className="label-text-alt">Bottom Left label</span>
-                  <span className="label-text-alt">Bottom Right label</span>
-                </label> */}
-
-                <label className="label  mt-3">
-                  <span className="label-text">Your message goes here</span>
-                  {/* <span className="label-text-alt">Alt label</span> */}
-                </label>
-                <textarea className="textarea textarea-info w-full max-w-xs" placeholder="Enter your message" required></textarea>
-
-                <button className="my-5 btn btn-info">Send</button>
+                  <button className="my-5 btn btn-info">Send</button>
+                </div>
               </div>
 
               

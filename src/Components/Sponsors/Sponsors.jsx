@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 
 import {motion} from 'framer-motion'
 import {Link} from 'react-scroll'
-import mouseScrollDown from '../../assets/mouseScrollDown.svg'
+
 
 const Sponsors = () => {
 
@@ -24,7 +24,7 @@ const Sponsors = () => {
         <div className="hero h-screen">
           <div id='contact' className='flex flex-col justify-center items-center'>
             <div className="">
-              <motion.h1 variants={variants} initial='hidden' animate='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Sponsers</motion.h1>
+              <motion.h1 variants={variants} initial='hidden' animate='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Sponsors</motion.h1>
             </div>
 
 

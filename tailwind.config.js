@@ -5,18 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-
-    // font-family: 'Kanit', sans-serif;
-    // font-family: 'Rubik', sans-serif;
-    // font-family: 'Josefin Sans', sans-serif;
-    // font-family: 'Josefin Slab', serif;
-    // font-family: 'Space Grotesk', sans-serif;
-    // font-family: 'Space Mono', monospace;
-    // font-family: 'Righteous', cursive;
-    // font-family: 'Patua One', cursive;
-    // font-family: 'Titan One', cursive;
-    // font-family: 'Kalam', cursive;
-
+   
     fontFamily: {
       'kanit': ["Kanit", "sans-serif"],
       'rubik': ["Rubik", "sans-serif"],
@@ -34,36 +23,31 @@ export default {
   },
   daisyui: {
     themes: [
-      "light",
-      "dark",
-      "cupcake",
-      "bumblebee",
-      "emerald",
-      "corporate",
-      "synthwave",
-      "retro",
-      "cyberpunk",
-      "valentine",
-      "halloween",
-      "garden",
-      "forest",
-      "aqua",
-      "lofi",
-      "pastel",
-      "fantasy",
-      "wireframe",
-      "black",
-      "luxury",
-      "dracula",
-      "cmyk",
-      "autumn",
-      "business",
-      "acid",
-      "lemonade",
-      "night",
-      "coffee",
-      "winter",
+      {
+        mytheme: {
+          
+          "primary": "#5421aa",
+                   
+          "secondary": "#0069cc",
+                   
+          "accent": "#f922b1",
+                   
+          "neutral": "#231f28",
+                   
+          "base-100": "#000328",
+                   
+          "info": "#00a2e4",
+                   
+          "success": "#2cba6c",
+                   
+          "warning": "#f5d166",
+                   
+          "error": "#f54d85",
+            },
+      
+      }
     ],
+    
   },
   // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],

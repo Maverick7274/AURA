@@ -64,7 +64,7 @@ function PastEvents() {
                 </div>
             </motion.div>
             <motion.div variants={variants} initial='hidden' whileInView='visible' className='grid justify-center'>
-                <Link to='/AURA-website/PastYearEvents' className='btn btn-outline btn-primary w-[15rem]'>
+                <Link to='/AURA-website/PastYearEvents' className='btn btn-outline btn-secondary w-[15rem]'>
                     View More Highlights
                 </Link>
             </motion.div>

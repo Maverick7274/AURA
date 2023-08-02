@@ -2,6 +2,7 @@ import Breadcrumbs from '../../Breadcrumbs'
 import {motion} from 'framer-motion'
 import VideoPlayer from '../../VideoPlayer'
 import Day2VideosData from '../../../Data/Day2VideosData'
+import CountdownCondensed from '../../Countdown/CountdownCondensed'
 
 
 function Day2Videos() {
@@ -33,6 +34,9 @@ function Day2Videos() {
                 )
                 })}
             </div>
+      </div>
+      <div className='fixed m-[2rem] bottom-0 right-0 bg-accent rounded p-[0.9rem] text-white'>
+        <CountdownCondensed />
       </div>
     </div>
   )

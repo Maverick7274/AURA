@@ -1,6 +1,7 @@
 import {motion} from 'framer-motion'
 import ButtonComponent from '../../ButtonComponent'
 import Breadcrumbs from '../../Breadcrumbs'
+import CountdownCondensed from '../../Countdown/CountdownCondensed'
 
 function HighLights2022Day1() {
   
@@ -25,7 +26,9 @@ function HighLights2022Day1() {
         <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1686743436/assets/images/PostEvent/showcase_83_p7gcrl.jpg" link='/AURA-website/postEvent' Heading='Post Event'/>
         <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1687024065/YOGITA%20NUPOOR%20SHREESTHA/4H3A0945_eo5mtp.jpg" link='/AURA-website/otherActivities' Heading='Other Activities'/>
       </div>
-
+      <div className='fixed m-[2rem] bottom-0 right-0 bg-accent rounded p-[0.9rem] text-white'>
+        <CountdownCondensed />
+      </div>
     </div>
 
   )

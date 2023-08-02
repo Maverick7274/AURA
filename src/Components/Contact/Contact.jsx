@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import {motion} from 'framer-motion'
 import {Link} from 'react-scroll'
 import mouseScrollDown from '../../assets/mouseScrollDown.svg'
+import CountdownCondensed from '../Countdown/CountdownCondensed'
 
 const Contact = () => {
 
@@ -55,6 +56,9 @@ const Contact = () => {
             </motion.div> */}
           </div>
         </div>
+      </div>
+      <div className='fixed m-[2rem] bottom-0 right-0 bg-accent rounded p-[0.9rem] text-white'>
+        <CountdownCondensed />
       </div>
     </>
   )

@@ -1,4 +1,3 @@
-import React from 'react'
 import { useCountdown } from './Utils/UseCountDown'
 import Timer from './Utils/Timer'
 
@@ -9,7 +8,7 @@ const Countdown = () => {
     // timerDays={days} timerHours={hours} timerMinutes={minutes} timerSeconds={seconds}
   return (
     <>
-        <Timer  timerDays={days} timerHours={hours} timerMinutes={minutes} timerSeconds={seconds}/>
+        <Timer timerDays={days} timerHours={hours} timerMinutes={minutes} timerSeconds={seconds}/>
     </>
   )
 }

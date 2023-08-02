@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 
 import {motion} from 'framer-motion'
 import {Link} from 'react-scroll'
-
+import CountdownCondensed from '../Countdown/CountdownCondensed'
 
 const Sponsors = () => {
 
@@ -60,23 +60,11 @@ const Sponsors = () => {
               <a href="#item3" className="btn btn-xs">3</a> 
               <a href="#item4" className="btn btn-xs">4</a>
             </div>
-
-  
-            {/* <div className="px-[20rem] text-justify">
-              <motion.p variants={variants} initial='hidden' animate='visible' className="text-[1.2rem] font-space-grotesk">
-              AURA Fest 2023 is an exhilarating celebration of talent, creativity, and endless possibilities. As one of the most highly anticipated events on our campus, we strive to provide a vibrant platform for students to showcase their skills, explore their passions, and connect with like-minded individuals.
-              </motion.p>
-              <motion.p variants={variants} initial='hidden' animate='visible' className="text-[1.2rem] font-space-grotesk">
-              Organized by the passionate and dedicated students of Amity University, Greater Noida our festival promises a memorable and enriching experience for all participants.
-              </motion.p>
-            </div> */}
-            {/* <motion.div className='pt-[5rem]' variants={variants} initial='hidden1' animate='visible1' transition={{delay:5}}>
-              <Link className='cursor-pointer flex flex-col justify-center items-center' activeClass="active" to="vision" spy={true} smooth={true} offset={-0} duration={500}>
-                <img src={mouseScrollDown} alt="" className='h-10 w-10 text-white duration-[5s] motion-safe:animate-bounce' />
-              </Link>
-            </motion.div> */}
           </div>
         </div>
+      </div>
+      <div className='fixed m-[2rem] bottom-0 right-0 bg-accent rounded p-[0.9rem] text-white'>
+        <CountdownCondensed />
       </div>
     </>
   )

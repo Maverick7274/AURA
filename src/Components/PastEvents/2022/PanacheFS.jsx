@@ -2,6 +2,7 @@ import Panache from '../../../Data/Panache'
 import Breadcrumbs from '../../Breadcrumbs'
 import {motion} from 'framer-motion'
 import BlurHashImages from '../../BlurHashImages'
+import CountdownCondensed from '../../Countdown/CountdownCondensed'
 
 function PanacheFS() {
 
@@ -31,6 +32,9 @@ return (
             })}
         </div>
   </div>
+  <div className='fixed m-[2rem] bottom-0 right-0 bg-accent rounded p-[0.9rem] text-white'>
+        <CountdownCondensed />
+      </div>
 </div>
 )
 }

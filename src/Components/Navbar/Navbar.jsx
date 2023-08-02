@@ -25,9 +25,9 @@ function Navbar() {
                     <li><NavLink to='/AURA-website/contact'>Contact Us</NavLink></li>
                     <li><NavLink to='/AURA-website/PastYearEvents'>Past Events</NavLink></li>
                     <li><NavLink to='/AURA-website/Sponsors'>Sponsors</NavLink></li>
-                    <li>
+                    {/* <li>
                         <Link activeClass="active" to="venue" spy={true} smooth={true} offset={0} duration={500}><span className="badge badge-accent badge-xs badge-outline">NEW</span>Venue</Link>
-                    </li>
+                    </li> */}
                 </ul>
                 </div>
                 <div className=''>
@@ -54,13 +54,13 @@ function Navbar() {
                     <li><NavLink to='/AURA-website/contact'>Contact Us</NavLink></li>
                     <li><NavLink to='/AURA-website/PastYearEvents'>Past Events</NavLink></li>
                     <li><NavLink to='/AURA-website/Sponsors'>Sponsors</NavLink></li>
-                    <li>
+                    {/* <li>
                         <Link activeClass="active" to="venue" spy={true} smooth={true} offset={0} duration={500}><span className="badge badge-success badge-outline">NEW</span>Venue</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className='min-[280px]:flex justify-center items-center hidden btn btn-outline font-space-mono btn-success w-[8rem]'>
+                <a className='min-[280px]:flex justify-center items-center hidden btn btn-outline font-space-mono btn-base-100 w-[8rem]'>
                         RSVP Now
                 </a>
             </div>

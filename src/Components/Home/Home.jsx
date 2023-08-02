@@ -7,6 +7,7 @@ import PastEvents from '../PastEvents/PastEvents';
 import {motion} from 'framer-motion'
 import Venue from '../Venue/Venue';
 import Countdown from '../Countdown/Countdown';
+import CountdownCTA from './CountdownCTA';
 
 
 function Home() {
@@ -38,8 +39,10 @@ function Home() {
                 Are you ready to seize the spotlight and let your brilliance shine through!?
               </motion.p>
               <motion.div className='pt-[2rem]' variants={variants} initial='hidden' animate='visible' transition={{duration:0.6}}>
-                <Countdown
-                  countdownTimestampMs={3801600000} />
+                <Countdown />
+                <div className='sm:text-l text-xl pt-[1rem] font-space-mono tracking-widest'>
+                  Until the main event!
+                </div>
               </motion.div>
             </div>
           </div>
@@ -47,6 +50,10 @@ function Home() {
 
         <div className='pt-[8rem]'>
           <AboutFest />
+        </div>
+
+        <div className='py-[5rem]'>
+          <CountdownCTA />
         </div>
 
         <div className='pt-[4.3rem]'>

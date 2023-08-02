@@ -7,49 +7,30 @@ function Timer({timerDays, timerHours, timerMinutes, timerSeconds})  {
     <Fragment>
         <section>
             <section>
-                {/* <div class="flex justify-center align-center gap-[0.4rem] text-white">
-                    <section class='bg-gray-800 p-[0.3rem] rounded border-[1px] border-[#eba643]'>
-                        <h2 class="text-center text-[1.5rem] font-[700]">{timerDays}</h2>
-                        <p class="text-gray-400 text-[1rem] font-[300]"><small>Days</small></p>
-                    </section>
-                    <section class='bg-gray-800 p-[0.3rem] rounded border-[1px] border-[#eba643]'>
-                        <h2 class="text-center text-[1.5rem] font-[700]">{timerHours}</h2>
-                        <p class="text-gray-400 text-[1rem] font-[300]"><small>Hours</small></p>
-                    </section>
-                    <section class='bg-gray-800 p-[0.3rem] rounded border-[1px] border-[#eba643]'>
-                        <h2 class="text-center text-[1.5rem] font-[700]">{timerMinutes}</h2>
-                        <p class="text-gray-400 text-[1rem] font-[300]"><small>Minutes</small></p>
-                    </section>
-                    <section class='bg-gray-800 p-[0.3rem] rounded border-[1px] border-[#eba643]'>
-                        <h2 class="text-center text-[1.5rem] font-[700]">{timerSeconds}</h2>
-                        <p class="text-gray-400 text-[1rem] font-[300]"><small>Seconds</small></p>
-                    </section>
-                </div> */}
-
                 <div className="grid grid-flow-col justify-center gap-5 text-center auto-cols-max">
-                    <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-                        <span className="countdown font-mono text-5xl">
-                        <span style={{"--value":timerDays}}></span>
+                    <div className="flex flex-col p-2 bg-info text-white rounded-box text-neutral-content">
+                        <span className="countdown font-mono sm:text-5xl text-3xl">
+                        <span className='font-space-mono' style={{"--value":timerDays}}></span>
                         </span>
-                        days
+                        <span className='font-space-grotesk'>days</span>
                     </div> 
-                    <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-                        <span className="countdown font-mono text-5xl">
-                        <span style={{"--value":timerHours}}></span>
+                    <div className="flex flex-col p-2 bg-info text-white rounded-box text-neutral-content">
+                        <span className="countdown font-mono sm:text-5xl text-3xl">
+                        <span className='font-space-mono' style={{"--value":timerHours}}></span>
                         </span>
-                        hours
+                        <span className='font-space-grotesk'>hours</span>
                     </div> 
-                    <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-                        <span className="countdown font-mono text-5xl">
-                        <span style={{"--value":timerMinutes}}></span>
+                    <div className="flex flex-col p-2 bg-info text-white rounded-box text-neutral-content">
+                        <span className="countdown font-mono sm:text-5xl text-3xl">
+                        <span className='font-space-mono' style={{"--value":timerMinutes}}></span>
                         </span>
-                        min
+                        <span className='font-space-grotesk'>min</span>
                     </div> 
-                    <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-                        <span className="countdown font-mono text-5xl">
-                        <span style={{"--value":timerSeconds}}></span>
+                    <div className="flex flex-col p-2 bg-info text-white rounded-box text-neutral-content">
+                        <span className="countdown font-mono sm:text-5xl text-3xl">
+                        <span className='font-space-mono' style={{"--value":timerSeconds}}></span>
                         </span>
-                        sec
+                        <span className='font-space-grotesk'>sec</span>
                     </div>
                 </div>
             </section>

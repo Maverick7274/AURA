@@ -6,6 +6,7 @@ import AboutFest from '../About/AboutFest';
 import PastEvents from '../PastEvents/PastEvents';
 import {motion} from 'framer-motion'
 import Venue from '../Venue/Venue';
+import Countdown from '../Countdown/Countdown';
 
 
 function Home() {
@@ -36,11 +37,10 @@ function Home() {
               <motion.p variants={variants} initial='hidden' animate='visible' transition={{delay:0.3, duration:0.5}} className='flex justify-center font-patua-one sm:flex hidden'>
                 Are you ready to seize the spotlight and let your brilliance shine through!?
               </motion.p>
-              {/* <motion.div variants={variants} initial='hidden' animate='visible' transition={{delay:0.3, duration:0.5}} className='grid justify-center'>
-                    <button className='btn btn-success cursor-pointer min-[280px]:text-[0.9rem] w-[8rem]'>
-                        RSVP Now
-                    </button>
-              </motion.div> */}
+              <motion.div className='pt-[2rem]' variants={variants} initial='hidden' animate='visible' transition={{duration:0.6}}>
+                <Countdown
+                  countdownTimestampMs={3801600000} />
+              </motion.div>
             </div>
           </div>
         </div>

@@ -58,25 +58,25 @@ function About() {
           <div className="px-[20rem] text-justify">
           <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/TCpfPxKPOvk/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/TCpfPxKPOvk/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/TCpfPxKPOvk/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/TCpfPxKPOvk/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/TCpfPxKPOvk/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/TCpfPxKPOvk/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/TCpfPxKPOvk/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
             </div> 
           </div>
           </div>

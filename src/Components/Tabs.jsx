@@ -1,31 +1,7 @@
 import {useState} from "react";
 
-const Tabs = () => {
+const Tabs = ({tabContent, setTabContent}) => {
 
-
-    const [tabContent, setTabContent] = useState(
-        [
-            {
-                id: 0,
-                title: "Tab 1",
-                content: "Tab 1 content",
-                isActive: true,
-            },
-            {
-                id: 1,
-                title: "Tab 2",
-                content: "Tab 2 content",
-                isActive: false,
-            },
-            {
-                id: 2,
-                title: "Tab 3",
-                content: "Tab 3 content",
-                isActive: false,
-            },
-    
-        ]
-    );
 
     function handleTabs(e) {
         const tabId = e.target.id;

@@ -1,5 +1,5 @@
 
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import {motion} from 'framer-motion'
 import {Link} from 'react-scroll'
 import mouseScrollDown from '../../assets/mouseScrollDown.svg'
@@ -15,6 +15,29 @@ function About() {
     visible1 : {y:0, opacity:1}
   }
 
+  const [tabContent, setTabContent] = useState(
+    [
+        {
+            id: 0,
+            title: "Tab 1",
+            content: "Tab 1 content",
+            isActive: true,
+        },
+        {
+            id: 1,
+            title: "Tab 2",
+            content: "Tab 2 content",
+            isActive: false,
+        },
+        {
+            id: 2,
+            title: "Tab 3",
+            content: "Tab 3 content",
+            isActive: false,
+        },
+
+    ]
+  );
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -59,7 +82,7 @@ function About() {
             <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Contributors</motion.h1>
           </div>
 
-          <Tabs />
+          <Tabs tabContent={tabContent} setTabContent={setTabContent}/>
 
         </div>
 

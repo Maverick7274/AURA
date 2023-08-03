@@ -4,6 +4,7 @@ import {motion} from 'framer-motion'
 import {Link} from 'react-scroll'
 import mouseScrollDown from '../../assets/mouseScrollDown.svg'
 import CountdownCondensed from '../Countdown/CountdownCondensed'
+import Tabs from '../Tabs'
 
 function About() {
 
@@ -50,6 +51,19 @@ function About() {
           </motion.div>
           </div>
         </div>
+
+
+
+        <div id='vision' className="h-screen flex flex-col justify-center items-center">
+          <div className="pt-[15rem]">
+            <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Contributors</motion.h1>
+          </div>
+
+          <Tabs />
+
+        </div>
+
+
 
         <div className="h-screen flex flex-col justify-center items-center">
           <div className="pt-[15rem]">

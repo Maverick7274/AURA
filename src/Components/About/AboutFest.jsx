@@ -2,6 +2,7 @@
 import React, {useEffect} from 'react'
 import {motion, useScroll, useTransform} from 'framer-motion'
 import { Link } from 'react-router-dom'
+import CountdownCondensed from '../Countdown/CountdownCondensed'
 
 function AboutFest() {
 
@@ -35,6 +36,9 @@ function AboutFest() {
                 Learn More
             </Link>
         </motion.div>
+        {/* <div className='sticky m-[2rem] bottom-0 right-0 bg-accent rounded p-[0.9rem] text-white'>
+        <CountdownCondensed />
+      </div> */}
     </div>
   )
 }

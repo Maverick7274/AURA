@@ -9,7 +9,7 @@ const variants = {
 
 function SponsorCTA() {
   return (
-    <div className="flex flex gap-[2rem] justify-center items-center bg-[#fffffb] p-[7rem]">
+    <div className="flex flex-col sm:flex-row gap-[2rem] justify-center items-center bg-[#fffffb] p-[7rem]">
       <div>
         <motion.h1
           variants={variants}

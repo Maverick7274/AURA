@@ -3,6 +3,7 @@ import React, {useEffect} from 'react'
 import {motion} from 'framer-motion'
 import {Link} from 'react-scroll'
 import CountdownCondensed from '../Countdown/CountdownCondensed'
+import SponsorCTA from './SponsorCTA'
 
 const Sponsors = () => {
 
@@ -63,6 +64,12 @@ const Sponsors = () => {
           </div>
         </div>
       </div>
+
+      <div>
+        <SponsorCTA/>
+      </div>
+
+
       <div className='fixed m-[2rem] bottom-0 right-0 bg-accent rounded p-[0.9rem] text-white'>
         <CountdownCondensed />
       </div>

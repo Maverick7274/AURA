@@ -1,21 +1,17 @@
-import {useState} from "react";
+import { useState } from "react";
 
-const Tabs = ({tabContent, setTabContent}) => {
-
-
-    function handleTabs(e) {
-        const tabId = e.target.id;
-        const newTabContent = [...tabContent];
-        newTabContent.forEach((tab) => {
-            tab.isActive = false;
-            if (tab.id == tabId) {
-                tab.isActive = true;
-            }
-        });
-        setTabContent(newTabContent);
-
-      
+const Tabs = ({ tabContent, setTabContent }) => {
+  function handleTabs(e) {
+    const tabId = e.target.id;
+    const newTabContent = [...tabContent];
+    newTabContent.forEach((tab) => {
+      tab.isActive = false;
+      if (tab.id == tabId) {
+        tab.isActive = true;
       }
+    });
+    setTabContent(newTabContent);
+  }
 
   return (
     <>
@@ -42,10 +38,12 @@ const Tabs = ({tabContent, setTabContent}) => {
             tab.isActive,
             (
               <div className={`tab-pane ${tab.isActive ? "" : "hidden"}`}>
-                <div className="card w-96 bg-primary text-primary-content">
-                  <div className="card-body">
-                    <h2 className="card-title">{tab.title}</h2>
-                    <p>{tab.content}</p>
+                <div className="w-screen flex flex-col justify-center items-center">
+                  <div className="card w-[90%] bg-secondary mt-[2rem] border text-primary-content">
+                    <div className="card-body">
+                      <h2 className="card-title">{tab.title}</h2>
+                      <p>{tab.content}</p>
+                    </div>
                   </div>
                 </div>
               </div>

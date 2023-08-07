@@ -32,7 +32,7 @@ const Tabs = ({ tabContent, setTabContent }) => {
             tab.isActive,
             (
               <a
-                className={`tab tab-lg ${tab.isActive ? "tab-active" : ""}`}
+                className={`tab tab-lg transition ease-in-out ${tab.isActive ? "tab-active" : ""}`}
                 id={tab.id}
                 onClick={handleTabs}
               >

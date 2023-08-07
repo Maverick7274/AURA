@@ -132,18 +132,6 @@ function About() {
         </div>
 
 
-
-        <div id='vision' className="h-screen flex flex-col justify-center items-center">
-          <div className="pt-[15rem]">
-            <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Test Timeline</motion.h1>
-          </div>
-
-          <Timeline timelineData={timelineData} />
-
-        </div>
-
-
-
         <div className="h-screen flex flex-col justify-center items-center">
           <div className="mt-[15rem]">
             <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Team Leads</motion.h1>

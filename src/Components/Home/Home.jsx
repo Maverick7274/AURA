@@ -25,8 +25,6 @@ function Home() {
     visible: { y:0, opacity: 1 },
   }
 
-  console.log(tabData[0].content)
-
 
 
   const [tabContent, setTabContent] = useState(tabData)

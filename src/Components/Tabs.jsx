@@ -1,6 +1,8 @@
 import { useState } from "react";
-import parse from "html-react-parser";
+// import parse from "html-react-parser";
+import JsxParser from "react-jsx-parser";
 import { motion } from "framer-motion";
+import Timeline from "./Timeline";
 
 const Tabs = ({ tabContent, setTabContent }) => {
   function handleTabs(e) {
@@ -46,7 +48,10 @@ const Tabs = ({ tabContent, setTabContent }) => {
           return (
             tab.isActive,
               <div className={`tab-pane ${tab.isActive ? "" : "hidden"}`}>
-                {parse(tab.content)}
+                    <JsxParser
+                      components={{Timeline}}
+                      jsx={tab.content} 
+                    />
               </div>
             )
         })}

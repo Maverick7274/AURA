@@ -1,6 +1,6 @@
 // import ImageSlider from '../ImageSlider/ImageSlider.jsx'
 // eslint-disable-next-line no-unused-vars
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import Faqs from '../Accordion/Faqs';
 import AboutFest from '../About/AboutFest';
 import PastEvents from '../PastEvents/PastEvents';
@@ -8,7 +8,10 @@ import {motion} from 'framer-motion'
 import Venue from '../Venue/Venue';
 import Countdown from '../Countdown/Countdown';
 import CountdownCTA from './CountdownCTA';
+import Timeline from '../Timeline';
+import Tabs from '../Tabs';
 
+import tabData from './timeline';
 
 function Home() {
 
@@ -22,6 +25,11 @@ function Home() {
     visible: { y:0, opacity: 1 },
   }
 
+  console.log(tabData[0].content)
+
+
+
+  const [tabContent, setTabContent] = useState(tabData)
 
 
   return (
@@ -55,6 +63,8 @@ function Home() {
         <div className='py-[5rem]'>
           <CountdownCTA />
         </div>
+
+        <Tabs tabContent={tabContent} setTabContent={setTabContent} />
 
         <div className='pt-[4.3rem]'>
           <Venue />

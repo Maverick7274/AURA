@@ -1,4 +1,6 @@
 import { useState } from "react";
+import parse from "html-react-parser";
+import { motion } from "framer-motion";
 
 const Tabs = ({ tabContent, setTabContent }) => {
   function handleTabs(e) {
@@ -13,8 +15,15 @@ const Tabs = ({ tabContent, setTabContent }) => {
     setTabContent(newTabContent);
   }
 
+  const variants = {
+    hidden: { y:35, opacity: 0 },
+    visible: { y:0, opacity: 1 },
+    hidden1 : {y:-35, opacity:0},
+    visible1 : {y:0, opacity:1}
+  }
+
   return (
-    <>
+    <div className="flex flex-col justify-center items-center gap-[4rem]">
       <div className="tabs tabs-boxed">
         {tabContent.map((tab) => {
           return (
@@ -36,22 +45,13 @@ const Tabs = ({ tabContent, setTabContent }) => {
         {tabContent.map((tab) => {
           return (
             tab.isActive,
-            (
               <div className={`tab-pane ${tab.isActive ? "" : "hidden"}`}>
-                <div className="w-screen flex flex-col justify-center items-center">
-                  <div className="card w-[90%] bg-secondary mt-[2rem] border text-primary-content">
-                    <div className="card-body">
-                      <h2 className="card-title">{tab.title}</h2>
-                      <p>{tab.content}</p>
-                    </div>
-                  </div>
-                </div>
+                {parse(tab.content)}
               </div>
             )
-          );
         })}
       </div>
-    </>
+    </div>
   );
 };
 

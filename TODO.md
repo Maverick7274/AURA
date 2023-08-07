@@ -16,10 +16,10 @@
 * FAQs Content- Amulya
 * About Us Tabs Content- Amulya
 * Contact Us - Om
-~~* Sponsorship CTA - Neelanjan~~
+* ~~Sponsorship CTA - Neelanjan~~
 * Month of Belongingness Photos - Neelanjan, Muteen, Amulya
 * Celebrities Section - Amulya
-* Team Lead Carousel - Muteen
+* ~~Team Lead Carousel - Muteen~~
 * Footer Social Links - Om
-~~* Schedule Tabs - Muteen~~
+* ~~Schedule Tabs - Muteen~~
 * Event Component

@@ -5,6 +5,7 @@ import {Link} from 'react-scroll'
 import mouseScrollDown from '../../assets/mouseScrollDown.svg'
 import CountdownCondensed from '../Countdown/CountdownCondensed'
 import Tabs from '../Tabs'
+import Timeline from '../Timeline'
 
 function About() {
 
@@ -15,24 +16,68 @@ function About() {
     visible1 : {y:0, opacity:1}
   }
 
+
+  const [timelineData, setTimelineData] = useState([
+    {
+      id: 0,
+      title: "Box 1",
+      content: `This is test para for Box 1`,
+      isLeft: true
+    },
+    {
+      id: 1,
+      title: "Tab 2",
+      content: `This is test para for Box 2`,
+      isLeft: false,
+    },
+    {
+      id: 1,
+      title: "Tab 3",
+      content: `This is test para for Box 3`,
+      isLeft: true,
+    },
+  ])
+
+
   const [tabContent, setTabContent] = useState(
     [
         {
             id: 0,
             title: "Tab 1",
-            content: "Tab 1 content",
+            content: `<div className="w-screen flex flex-col justify-center items-center">
+            <div className="card w-[90%] bg-secondary mt-[2rem] border text-primary-content">
+              <div className="card-body">
+                <h2 className="card-title">Tab 1</h2>
+                <p>Tab 1 Content</p>
+              </div>
+            </div>
+          </div>`,
             isActive: true,
         },
         {
             id: 1,
             title: "Tab 2",
-            content: "Tab 2 content",
+            content: `<div className="w-screen flex flex-col justify-center items-center">
+            <div className="card w-[90%] bg-secondary mt-[2rem] border text-primary-content">
+              <div className="card-body">
+                <h2 className="card-title">Tab 2</h2>
+                <p>Tab 2 Content</p>
+              </div>
+            </div>
+          </div>`,
             isActive: false,
         },
         {
             id: 2,
             title: "Tab 3",
-            content: "Tab 3 content",
+            content: `<div className="w-screen flex flex-col justify-center items-center">
+            <div className="card w-[90%] bg-secondary mt-[2rem] border text-primary-content">
+              <div className="card-body">
+                <h2 className="card-title">Tab 3</h2>
+                <p>Tab 3 Content</p>
+              </div>
+            </div>
+          </div>`,
             isActive: false,
         },
 
@@ -86,6 +131,52 @@ function About() {
 
         </div>
 
+
+
+        <div id='vision' className="h-screen flex flex-col justify-center items-center">
+          <div className="pt-[15rem]">
+            <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Test Timeline</motion.h1>
+          </div>
+
+          <Timeline timelineData={timelineData} />
+
+        </div>
+
+
+
+        <div className="h-screen flex flex-col justify-center items-center">
+          <div className="mt-[15rem]">
+            <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Team Leads</motion.h1>
+          </div>
+          <div className="px-[20rem] text-justify">
+          <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
+            <div className="carousel-item">
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+            </div> 
+            <div className="carousel-item">
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+            </div> 
+            <div className="carousel-item">
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+            </div> 
+            <div className="carousel-item">
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+            </div> 
+            <div className="carousel-item">
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+            </div> 
+            <div className="carousel-item">
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+            </div> 
+            <div className="carousel-item">
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+            </div> 
+          </div>
+          </div>
+          <motion.div className='py-[4rem]' variants={variants} initial='hidden1' whileInView='visible1' transition={{delay:2}}>
+
+          </motion.div>
+        </div>
 
 
         <div className="h-screen flex flex-col justify-center items-center">

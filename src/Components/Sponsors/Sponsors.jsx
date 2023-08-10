@@ -22,7 +22,6 @@ const Sponsors = () => {
       <div className="h-auto">
         <div className="sm:hero sm:mt-[0] mt-[7rem] h-screen">
           <div
-            id="contact"
             className="flex flex-col justify-center items-center"
           >
             <div className="">
@@ -101,6 +100,35 @@ const Sponsors = () => {
               </a>
             </div>
           </div>
+
+
+          <div id="vision" className="h-screen flex flex-col justify-center items-center">
+          <div className="pt-[45rem]">
+            <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Previous Sponsers</motion.h1>
+          </div>
+
+          <div class="relative flex overflow-x-hidden">
+            <div class="py-12 animate-marquee whitespace-nowrap">
+              <span class="text-4xl mx-4">Marquee Item 1</span>
+              <span class="text-4xl mx-4">Marquee Item 2</span>
+              <span class="text-4xl mx-4">Marquee Item 3</span>
+              <span class="text-4xl mx-4">Marquee Item 4</span>
+              <span class="text-4xl mx-4">Marquee Item 5</span>
+            </div>
+
+            <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+              <span class="text-4xl mx-4">Marquee Item 1</span>
+              <span class="text-4xl mx-4">Marquee Item 2</span>
+              <span class="text-4xl mx-4">Marquee Item 3</span>
+              <span class="text-4xl mx-4">Marquee Item 4</span>
+              <span class="text-4xl mx-4">Marquee Item 5</span>
+            </div>
+          </div>
+
+
+          </div>
+
+
         </div>
       </div>
 

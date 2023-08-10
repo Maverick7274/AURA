@@ -32,25 +32,25 @@ const timeline2 = [
     id: 0,
     title: "Morning 1000",
     content: "This is for morning",
-    isLeft: true,
+    isLeft: false,
   },
   {
     id: 1,
     title: "Afternoon 1200",
     content: "This is for afternoon",
-    isLeft: false,
+    isLeft: true,
   },
   {
     id: 2,
     title: "Evening 1600",
     content: "This is for evening",
-    isLeft: true,
+    isLeft: false,
   },
   {
     id: 3,
     title: "Night 1900",
     content: "This is for night",
-    isLeft: false,
+    isLeft: true,
   },
 ]
 

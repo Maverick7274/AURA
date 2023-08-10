@@ -9,7 +9,7 @@ const variants = {
 
 function SponsorCTA() {
   return (
-    <div className="flex flex-col sm:flex-row gap-[2rem] justify-center items-center bg-[#fffffb] p-[7rem]">
+    <div className="flex flex-col sm:flex-row gap-[2rem] justify-center items-center bg-[#fffffb] md:p-[7rem] py-[1rem] px-[0]">
       <div>
         <motion.h1
           variants={variants}
@@ -33,7 +33,11 @@ function SponsorCTA() {
         whileInView="visible"
         transition={{ duration: 0.6 }}
       >
-        <div>
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.6 }}>
           <a href="#">
             <svg
               id="logo-78"
@@ -57,7 +61,7 @@ function SponsorCTA() {
               ></path>
             </svg>
           </a>
-        </div>
+        </motion.div>
       </motion.div>
     </div>
   );

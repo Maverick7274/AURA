@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Timeline from "./Timeline";
 
 const Tabs = ({ tabContent, setTabContent }) => {
+  
   function handleTabs(e) {
     const tabId = e.target.id;
     const newTabContent = [...tabContent];

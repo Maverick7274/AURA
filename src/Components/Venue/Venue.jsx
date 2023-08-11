@@ -24,7 +24,7 @@ function Venue() {
                     <span className='font-bold'>
                         Address:
                     </span>
-                    <a target='_blank' rel='noreferrer' href='https://goo.gl/maps/wGBhdipNFArmEfJ67' className='hover:text-success underline underline-offset-4 hover:underline-offset-8 duration-500 decoration-success hover:decoration-orange-500'>
+                    <a target='_blank' rel='noreferrer' href='https://goo.gl/maps/wGBhdipNFArmEfJ67' className='hover:text-success hover:underline duration-200 decoration-success hover:decoration-orange-500'>
                     Amity University Uttar Pradesh, Plot No. 48 A, Knowledge Park 3, Greater Noida, Uttar Pradesh, India, 201308
                     </a>
                 </div>
@@ -32,7 +32,7 @@ function Venue() {
                     <span className='font-bold'>
                         Phone:
                     </span>
-                    <a target='_blank' rel='noreferrer' href='tel:(+91) 96541 39399' className='hover:text-success underline underline-offset-4 hover:underline-offset-8 duration-500 decoration-success hover:decoration-orange-500'>
+                    <a target='_blank' rel='noreferrer' href='tel:(+91) 96541 39399' className='hover:text-success hover:underline duration-500 decoration-success hover:decoration-orange-500'>
                         (+91) 96541 39399
                     </a>
                 </div>
@@ -40,7 +40,7 @@ function Venue() {
                     <span className='font-bold'>
                         E-mail:
                     </span>
-                    <a href='mailto:conference@gn.amity.edu' className='hover:text-success underline underline-offset-4 hover:underline-offset-8 duration-500 decoration-success hover:decoration-orange-500'>
+                    <a href='mailto:conference@gn.amity.edu' className='hover:text-success hover:underline duration-500 decoration-success hover:decoration-orange-500'>
                         conference@gn.amity.edu
                     </a>
                 </div>

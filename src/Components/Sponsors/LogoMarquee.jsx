@@ -8,7 +8,7 @@ function LogoMarquee() {
       {/* <div id="vision" className="flex flex-col justify-center items-center gap-[1rem] bg-gradient-to-r from-accent via-info via-primary via-secondary to-success"> */}
       <div
         id="vision"
-        className="flex flex-col justify-center items-center gap-[1rem] bg-[#fff]"
+        className="flex flex-col justify-center items-center gap-[1rem] bg-gradient-to-r from-white to-info"
       >
         <div className="relative overflow-x-hidden">
           <div className="sm:py-12 py-[1rem] animate-marquee whitespace-nowrap flex justify-center items-center gap-[1rem]">

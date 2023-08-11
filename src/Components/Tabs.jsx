@@ -72,7 +72,7 @@ const Tabs = ({ tabContent, setTabContent, visibility }) => {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center gap-[4rem]">
+    <div className="flex flex-col justify-center items-center gap-[1rem]">
       <div className="tabs tabs-boxed" style={visibilityStyle}>
         {tabContent.map((tab) => {
           return (

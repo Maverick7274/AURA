@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import sponserData from "./SponserData";
+import Tabs from "../Tabs";
 
 
 function OurSponsors() {
@@ -35,20 +36,20 @@ function OurSponsors() {
   return (
     <div>
       <div className="h-auto">
-        <div className="sm:hero sm:mt-[0] mt-[7rem] h-[60vh]">
+        <div className="sm:hero sm:mt-[0] mt-[7rem] sm:h-[60vh] h-[40vh]">
           <div className="flex flex-col justify-center items-center">
             <div className="">
               <motion.h1
                 variants={variants}
                 initial="hidden"
                 animate="visible"
-                className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik"
+                className=" text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik"
               >
                 Our Sponsors
               </motion.h1>
             </div>
 
-            {/* <Tabs tabContent={tabContent} setTabContent={setTabContent} visibility="hidden" /> */}
+            <Tabs tabContent={tabContent} setTabContent={setTabContent} visibility="hidden" />
           </div>
         </div>
       </div>

@@ -122,7 +122,7 @@ function About() {
 
 
 
-        <div id='vision' className="h-screen flex flex-col justify-center items-center">
+        <div id='vision' className=" mt-[20rem] lg:mt-[15rem] max-lg:mt-[10rem] max-md:mt-[10rem] max-sm:mt-[5rem] flex flex-col justify-center items-center">
           <div className="">
             <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] pt-[50px] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Contributors</motion.h1>
           </div>
@@ -132,7 +132,7 @@ function About() {
         </div>
 
 
-        <div className="h-screen flex flex-col justify-center items-center">
+        <div className=" mt-[20rem] lg:mt-[15rem] max-lg:mt-[10rem] max-md:mt-[10rem] max-sm:mt-[5rem] flex flex-col justify-center items-center">
           <div className="mt-[0rem]">
             <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] pt-[50px] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Team Leads</motion.h1>
           </div>
@@ -164,7 +164,7 @@ function About() {
         </div>
 
 
-        <div className="h-screen flex flex-col justify-center items-center">
+        <div className=" mt-[20rem] lg:mt-[15rem] max-lg:mt-[10rem] max-md:mt-[10rem] max-sm:mt-[5rem] flex flex-col justify-center items-center">
           <div className="mt-[0rem]">
             <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] pt-[50px] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Contributors</motion.h1>
           </div>

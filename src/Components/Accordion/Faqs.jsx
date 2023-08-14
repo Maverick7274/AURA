@@ -27,7 +27,7 @@ function Faqs() {
                         When and where will AURA Fest take place?
                     </div>
                     <div className="collapse-content font-space-grotesk">
-                        <p>will take place on [dates] at [venue/location]. The venue will be transformed into a vibrant hub of activity, featuring multiple stages, exhibition areas, and interactive spaces.</p>
+                        <p>will take place on <span className='font-bold'>14th, 15th, & 16th September</span> at Amity University Greater Noida. The venue will be transformed into a vibrant hub of activity, featuring multiple stages, exhibition areas, and interactive spaces.</p>
                     </div>
                 </motion.div>
                 <motion.div variants={variants} initial='hidden' whileInView='visible' tabIndex={0} className="collapse collapse-arrow bg-base-200">

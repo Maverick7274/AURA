@@ -102,13 +102,13 @@ function About() {
           <div className='hero-overlay bg-opacity-90'></div>
           <div id='about' className='flex flex-col justify-center items-center'>
           <div className="">
-            <motion.h1 variants={variants} initial='hidden' animate='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">About Us</motion.h1>
+            <motion.h1 variants={variants} initial='hidden' animate='visible' className="className='mb-5 pt-[5rem] px-[3rem] min-[280px]:text-[2rem] sm:text-[4rem] text-[3rem] font-bold font-rubik text-center">About Us</motion.h1>
           </div>
-          <div className="px-[20rem] text-justify">
-            <motion.p variants={variants} initial='hidden' animate='visible' className="text-[1.2rem] font-space-grotesk">
+          <div className="px-[20rem] max-lg:px-[10rem] max-md:px-[10rem] max-sm:px-[2rem] text-center">
+            <motion.p variants={variants} initial='hidden' animate='visible' className="text-[1.2rem] max-sm:text-[16px] font-space-grotesk">
             AURA Fest 2023 is an exhilarating celebration of talent, creativity, and endless possibilities. As one of the most highly anticipated events on our campus, we strive to provide a vibrant platform for students to showcase their skills, explore their passions, and connect with like-minded individuals.
             </motion.p>
-            <motion.p variants={variants} initial='hidden' animate='visible' className="text-[1.2rem] font-space-grotesk">
+            <motion.p variants={variants} initial='hidden' animate='visible' className="text-[1.2rem] max-sm:text-[16px] font-space-grotesk">
             Organized by the passionate and dedicated students of Amity University, Greater Noida our festival promises a memorable and enriching experience for all participants.
             </motion.p>
           </div>
@@ -122,9 +122,9 @@ function About() {
 
 
 
-        <div id='vision' className="h-screen flex flex-col justify-center items-center">
-          <div className="pt-[15rem]">
-            <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Contributors</motion.h1>
+        <div id='vision' className=" mt-[20rem] lg:mt-[15rem] max-lg:mt-[10rem] max-md:mt-[10rem] max-sm:mt-[5rem] flex flex-col justify-center items-center">
+          <div className="">
+            <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] pt-[50px] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Contributors</motion.h1>
           </div>
 
           <Tabs tabContent={tabContent} setTabContent={setTabContent}/>
@@ -132,73 +132,67 @@ function About() {
         </div>
 
 
-        <div className="h-screen flex flex-col justify-center items-center">
-          <div className="mt-[15rem]">
-            <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Team Leads</motion.h1>
+        <div className=" mt-[20rem] lg:mt-[15rem] max-lg:mt-[10rem] max-md:mt-[10rem] max-sm:mt-[5rem] flex flex-col justify-center items-center">
+          <div className="mt-[0rem]">
+            <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] pt-[50px] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Team Leads</motion.h1>
           </div>
-          <div className="px-[20rem] text-justify">
-          <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
+          <div className="text-justify">
+          <div className="carousel carousel-center max-sm:w-screen max-w-md p-4 space-x-4 bg-neutral rounded-box">
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box  max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box  max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box  max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
             </div> 
           </div>
           </div>
-          <motion.div className='py-[4rem]' variants={variants} initial='hidden1' whileInView='visible1' transition={{delay:2}}>
-
-          </motion.div>
         </div>
 
 
-        <div className="h-screen flex flex-col justify-center items-center">
-          <div className="pt-[15rem]">
-            <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Contributors</motion.h1>
+        <div className=" mt-[20rem] lg:mt-[15rem] max-lg:mt-[10rem] max-md:mt-[10rem] max-sm:mt-[5rem] flex flex-col justify-center items-center">
+          <div className="mt-[0rem]">
+            <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] pt-[50px] text-center min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Our Contributors</motion.h1>
           </div>
-          <div className="px-[20rem] text-justify">
-          <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
+          <div className="text-justify">
+          <div className="carousel carousel-center max-sm:w-screen max-w-md p-4 space-x-4 bg-neutral rounded-box">
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box  max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box  max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box  max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box" />
+              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
             </div> 
           </div>
           </div>
-          <motion.div className='py-[4rem]' variants={variants} initial='hidden1' whileInView='visible1' transition={{delay:2}}>
-
-          </motion.div>
         </div>
       </div>
       <div className='fixed m-[2rem] bottom-0 right-0 bg-accent rounded p-[0.9rem] text-white'>

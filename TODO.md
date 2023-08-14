@@ -30,6 +30,5 @@ Activate RSVP
 * Month of Belongingness Photos - Neelanjan, Muteen, Amulya
 * Celebrities Section
 * ~~Team Lead Carousel - Muteen~~
-* Footer Social Links - Om
 * ~~Schedule Tabs - Muteen~~
 * Event Component

@@ -10,6 +10,7 @@ import Tabs from '../Tabs';
 
 import tabData from './timeline';
 import Hero from './Hero';
+import SocialCTA from '../SocialCTA/SocialCTA';
 
 function Home() {
 
@@ -25,6 +26,10 @@ function Home() {
     <>
       <div>
         <Hero />
+      </div>
+
+      <div>
+        <SocialCTA />
       </div>
 
         <div className='pt-[8rem]'>

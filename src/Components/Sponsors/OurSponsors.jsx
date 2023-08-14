@@ -36,7 +36,7 @@ function OurSponsors() {
   return (
     <div>
       <div className="h-auto">
-        <div className="sm:hero sm:mt-[0] mt-[7rem] sm:h-[60vh] h-[40vh]">
+        <div className="hero h-screen">
           <div className="flex flex-col justify-center items-center">
             <div className="">
               <motion.h1

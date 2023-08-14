@@ -139,25 +139,22 @@ function About() {
           <div className="text-justify">
           <div className="carousel carousel-center max-sm:w-screen max-w-md p-4 space-x-4 bg-neutral rounded-box">
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
+              <img src="https://res.cloudinary.com/djqnbowat/image/upload/v1692043904/13_z0fho6.png" className="rounded-box  max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
+              <img src="https://res.cloudinary.com/djqnbowat/image/upload/v1692043905/7_z5zih7.png" className="rounded-box  max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box  max-sm:w-[90vw]" />
+              <img src="https://res.cloudinary.com/djqnbowat/image/upload/v1692043903/15_gkpl2u.png" className="rounded-box  max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box  max-sm:w-[90vw]" />
+              <img src="https://res.cloudinary.com/djqnbowat/image/upload/v1692043904/11_uuppnl.png" className="rounded-box max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box  max-sm:w-[90vw]" />
+              <img src="https://res.cloudinary.com/djqnbowat/image/upload/v1692043903/17_ybsylg.png" className="rounded-box max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
-            </div> 
-            <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
+              <img src="https://res.cloudinary.com/djqnbowat/image/upload/v1692043906/9_zsksqj.png" className="rounded-box max-sm:w-[90vw]" />
             </div> 
           </div>
           </div>
@@ -171,26 +168,23 @@ function About() {
           <div className="text-justify">
           <div className="carousel carousel-center max-sm:w-screen max-w-md p-4 space-x-4 bg-neutral rounded-box">
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
+              <img src="https://res.cloudinary.com/djqnbowat/image/upload/v1692043901/14_knbmyu.png" className="rounded-box max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
+              <img src="https://res.cloudinary.com/djqnbowat/image/upload/v1692043905/8_huesb8.png" className="rounded-box max-sm:w-[90vw]" />
+            </div> 
+            <div className="carousel-item">
+              <img src="https://res.cloudinary.com/djqnbowat/image/upload/v1692043904/16_zdimjt.png" className="rounded-box  max-sm:w-[90vw]" />
+            </div> 
+            <div className="carousel-item">
+              <img src="https://res.cloudinary.com/djqnbowat/image/upload/v1692043904/12_lholry.png" className="rounded-box  max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
               <img src="https://source.unsplash.com/random/400x600" className="rounded-box  max-sm:w-[90vw]" />
             </div> 
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box  max-sm:w-[90vw]" />
-            </div> 
-            <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box  max-sm:w-[90vw]" />
-            </div> 
-            <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
-            </div> 
-            <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/400x600" className="rounded-box max-sm:w-[90vw]" />
-            </div> 
+              <img src="https://res.cloudinary.com/djqnbowat/image/upload/v1692043906/10_ahvkup.png" className="rounded-box max-sm:w-[90vw]" />
+            </div>
           </div>
           </div>
         </div>

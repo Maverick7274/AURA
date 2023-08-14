@@ -19,9 +19,9 @@ function Days() {
           <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1686746572/cover2022_u4zre2.jpg" link="/AURA-website/Highlights2022Day1" Heading='Day 1'/>
           <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1687031171/Day_2_Showcase_22_hiyd3y.jpg" link="/AURA-website/Highlights2022Day2" Heading='Day 2'/>
         </div>
-        <div className='fixed m-[2rem] bottom-0 right-0 bg-accent rounded p-[0.9rem] text-white'>
+        {/* <div className='sticky m-[2rem] bottom-15 right-0 bg-accent rounded p-[0.9rem] text-white'>
         <CountdownCondensed />
-      </div>
+      </div> */}
     </div>
   )
 }

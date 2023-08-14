@@ -56,9 +56,9 @@ function CelebrityNight() {
                 })}
             </div>
       </div>
-      <div className='fixed m-[2rem] bottom-0 right-0 bg-accent rounded p-[0.9rem] text-white'>
+      {/* <div className='sticky m-[2rem] bottom-15 right-0 bg-accent rounded p-[0.9rem] text-white'>
         <CountdownCondensed />
-      </div>
+      </div> */}
     </div>
   )
 }

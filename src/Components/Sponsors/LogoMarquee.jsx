@@ -1,4 +1,5 @@
 import ButtonComponent from "../ButtonComponent";
+import Cards from "../Cards";
 import FM from "../../assets/FM.svg";
 import Recology_Logo from "../../assets/Recology_Logo.svg";
 import ARTKONNECT_LOGO from "../../assets/ARTKONNECT_LOGO.svg";
@@ -14,12 +15,13 @@ function LogoMarquee() {
         className="flex flex-wrap justify-center items-center gap-[1rem]"
       >
 
-        <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1691699489/Dee_hand_factory_c8gf0u.jpg" Heading='Dee Hand Factory'/>
-        <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1691699489/BK_BKAMogos_mco6fl.png" Heading='Blossom Kochhar'/>
-        <ButtonComponent cover="https://res.cloudinary.com/djqnbowat/image/upload/v1691699909/Apollo_zk0xqg.jpg" Heading='Apollo Hospital'/>
-        <ButtonComponent cover={FM} Heading='Red FM'/>
-        <ButtonComponent cover={Recology_Logo} Heading='Recology'/>
-        <ButtonComponent cover={ARTKONNECT_LOGO} Heading='Art Konnect'/>
+        <Cards cover="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/KTM-Logo.svg/780px-KTM-Logo.svg.png" Heading="KTM" />
+        <Cards cover="https://res.cloudinary.com/djqnbowat/image/upload/v1691699489/Dee_hand_factory_c8gf0u.jpg" Heading='Dee Hand Factory'/>
+        <Cards cover="https://res.cloudinary.com/djqnbowat/image/upload/v1691699489/BK_BKAMogos_mco6fl.png" Heading='Blossom Kochhar'/>
+        <Cards cover="https://res.cloudinary.com/djqnbowat/image/upload/v1691699909/Apollo_zk0xqg.jpg" Heading='Apollo Hospital'/>
+        <Cards cover={FM} Heading='Red FM'/>
+        <Cards cover={Recology_Logo} Heading='Recology'/>
+        <Cards cover={ARTKONNECT_LOGO} Heading='Art Konnect'/>
 
 
         {/* <span>

@@ -13,7 +13,7 @@ function PreEvent() {
   return (
     <div className='py-[5rem] px-[2rem]'>
         <div className='mt-[2rem]'>
-                <Breadcrumbs link1="/AURA-website/PastYearEvents" link2="/AURA-website/Highlights2022Day1" currentLink="/AURA-website/PreEvent" link1Name="Past Year Events" link2Name="Day 1" currentLinkName="Pre Event"/>
+                <Breadcrumbs link1="/PastYearEvents" link2="/Highlights2022Day1" currentLink="/PreEvent" link1Name="Past Year Events" link2Name="Day 1" currentLinkName="Pre Event"/>
             <div>
             <motion.h2 variants={variants} initial='hidden' whileInView='visible' className='sm:text-[3rem] text-[1.9rem] sm:text-left text-center font-space-grotesk font-[700]'>
                 Pre Event

@@ -32,7 +32,7 @@ function AboutFest() {
             </motion.div>
         </div>
         <motion.div variants={variants} initial='hidden' whileInView='visible' className='grid justify-end'>
-            <Link to='/AURA-website/about' className='btn btn-outline btn-secondary w-[10rem]'>
+            <Link to='/about' className='btn btn-outline btn-secondary w-[10rem]'>
                 Learn More
             </Link>
         </motion.div>

@@ -13,7 +13,7 @@ function Navbar() {
                 </label>
                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                     <li>
-                        <a><NavLink to="/AURA-website/">Home</NavLink></a>
+                        <a><NavLink to="/">Home</NavLink></a>
                         <ul className="p-2">
                         <li><Link activeClass="active" to="aboutfest" spy={true} smooth={true} offset={-120} duration={500}>About</Link></li>
                                 <li><Link activeClass="active" to="venue" spy={true} smooth={true} offset={0} duration={500}>Venue</Link></li>
@@ -21,17 +21,17 @@ function Navbar() {
                                 <li><Link activeClass="active" to="faq" spy={true} smooth={true} offset={-120} duration={500}>FAQs</Link></li>
                         </ul>
                     </li>
-                    <li><NavLink to='/AURA-website/about'>About</NavLink></li>
-                    <li><NavLink to='/AURA-website/contact'>Contact Us</NavLink></li>
-                    <li><NavLink to='/AURA-website/PastYearEvents'>Past Events</NavLink></li>
-                    <li><NavLink to='/AURA-website/Sponsors'>Sponsors</NavLink></li>
+                    <li><NavLink to='/about'>About</NavLink></li>
+                    <li><NavLink to='/contact'>Contact Us</NavLink></li>
+                    <li><NavLink to='/PastYearEvents'>Past Events</NavLink></li>
+                    <li><NavLink to='/Sponsors'>Sponsors</NavLink></li>
                     {/* <li>
                         <Link activeClass="active" to="venue" spy={true} smooth={true} offset={0} duration={500}><span className="badge badge-accent badge-xs badge-outline">NEW</span>Venue</Link>
                     </li> */}
                 </ul>
                 </div>
                 <div className=''>
-                <NavLink to='/AURA-website/' className="cursor-pointer hidden lg:flex flex gap-[1rem] justify-center items-center">
+                <NavLink to='/' className="cursor-pointer hidden lg:flex flex gap-[1rem] justify-center items-center">
                     <img src={logo} width='50px' height='50px'/>
                     <span className='font-josefin-sans font-[700] normal-case text-3xl'>AURA FEST</span>
                 </NavLink>
@@ -41,7 +41,7 @@ function Navbar() {
                 <ul className="menu menu-horizontal px-1">
                     <li tabIndex={0}>
                         <details>
-                            <summary><NavLink to="/AURA-website/">Home</NavLink></summary>
+                            <summary><NavLink to="/">Home</NavLink></summary>
                             <ul className="p-2">
                                 <li><Link activeClass="active" to="aboutfest" spy={true} smooth={true} offset={-120} duration={500}>About</Link></li>
                                 <li><Link activeClass="active" to="venue" spy={true} smooth={true} offset={0} duration={500}>Venue</Link></li>
@@ -50,10 +50,10 @@ function Navbar() {
                             </ul>
                         </details>
                     </li>
-                    <li><NavLink to='/AURA-website/about'>About</NavLink></li>
-                    <li><NavLink to='/AURA-website/contact'>Contact Us</NavLink></li>
-                    <li><NavLink to='/AURA-website/PastYearEvents'>Past Events</NavLink></li>
-                    <li><NavLink to='/AURA-website/Sponsors'>Sponsors</NavLink></li>
+                    <li><NavLink to='/about'>About</NavLink></li>
+                    <li><NavLink to='/contact'>Contact Us</NavLink></li>
+                    <li><NavLink to='/PastYearEvents'>Past Events</NavLink></li>
+                    <li><NavLink to='/Sponsors'>Sponsors</NavLink></li>
                     {/* <li>
                         <Link activeClass="active" to="venue" spy={true} smooth={true} offset={0} duration={500}><span className="badge badge-success badge-outline">NEW</span>Venue</Link>
                     </li> */}

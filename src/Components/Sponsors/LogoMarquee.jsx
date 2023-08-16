@@ -19,7 +19,7 @@ function LogoMarquee() {
         <Cards cover="https://res.cloudinary.com/djqnbowat/image/upload/v1691699489/Dee_hand_factory_c8gf0u.jpg" Heading='Dee Hand Factory'/>
         <Cards cover="https://res.cloudinary.com/djqnbowat/image/upload/v1691699489/BK_BKAMogos_mco6fl.png" Heading='Blossom Kochhar'/>
         <Cards cover="https://res.cloudinary.com/djqnbowat/image/upload/v1691699909/Apollo_zk0xqg.jpg" Heading='Apollo Hospital'/>
-        <Cards cover={FM} Heading='Red FM'/>
+        <Cards cover={FM} Heading='Radio City FM'/>
         <Cards cover={Recology_Logo} Heading='Recology'/>
         <Cards cover={ARTKONNECT_LOGO} Heading='Art Konnect'/>
 

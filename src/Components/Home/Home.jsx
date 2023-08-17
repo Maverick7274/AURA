@@ -7,7 +7,7 @@ import PastEvents from '../PastEvents/PastEvents';
 import Venue from '../Venue/Venue';
 import CountdownCTA from './CountdownCTA';
 import Tabs from '../Tabs';
-
+import {motion} from 'framer-motion';
 import tabData from './timeline';
 import Hero from './Hero';
 import SocialCTA from '../SocialCTA/SocialCTA';
@@ -21,6 +21,11 @@ function Home() {
 
   const [tabContent, setTabContent] = useState(tabData)
 
+  const variants = {
+    hidden: { y:135, opacity: 0 },
+    visible: { y:0, opacity: 1 },
+  }
+
 
   return (
     <>
@@ -28,7 +33,7 @@ function Home() {
         <Hero />
       </div>
 
-      <div>
+      <div className='pt-[5rem]'>
         <SocialCTA />
       </div>
 
@@ -40,7 +45,12 @@ function Home() {
           <CountdownCTA />
         </div>
 
-        <Tabs tabContent={tabContent} setTabContent={setTabContent} visibility="visible" />
+        <div className='flex flex-col justify-center items-center pt-[5rem]'>
+          <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Schedule</motion.h1>
+          <motion.p variants={variants} initial='hidden' whileInView='visible' className='font-space-grotesk max-[280px]:text-[1.1rem] text-[0.9rem] sm:text-[2rem]'>Will be declared 7 days prior to the event. Stay updated with our <a href='https://www.instagram.com/aurafest.live/' className='link link-accent'>Instagram</a></motion.p>
+        </div>
+
+        {/* <Tabs tabContent={tabContent} setTabContent={setTabContent} visibility="visible" /> */}
 
         <div className='pt-[4.3rem]'>
           <Venue />

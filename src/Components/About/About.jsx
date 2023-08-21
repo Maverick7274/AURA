@@ -97,7 +97,7 @@ function About() {
         
         <div className="hero h-screen">
         <div className='h-full w-full'>
-            <video src="https://res.cloudinary.com/djqnbowat/video/upload/v1686743623/assets/videos/HeroMontagePC_qk6sx5.mp4" className='object-cover w-full h-full' autoPlay loop muted />
+            <video src="https://res.cloudinary.com/djqnbowat/video/upload/v1692314097/AURA_FEST_TEASER_a6pfva.mp4" className='object-cover w-full h-full' autoPlay loop muted />
           </div>
           <div className='hero-overlay bg-opacity-90'></div>
           <div id='about' className='flex flex-col justify-center items-center'>

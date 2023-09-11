@@ -54,6 +54,7 @@ function Navbar() {
                     <li><NavLink to='/contact'>Contact Us</NavLink></li>
                     <li><NavLink to='/PastYearEvents'>Past Events</NavLink></li>
                     <li><NavLink to='/Sponsors'>Sponsors</NavLink></li>
+                    <li><NavLink to='/events' className="">Events<div className="badge badge-accent badge-xs"></div></NavLink></li>
                     {/* <li>
                         <Link activeClass="active" to="venue" spy={true} smooth={true} offset={0} duration={500}><span className="badge badge-success badge-outline">NEW</span>Venue</Link>
                     </li> */}

@@ -4,6 +4,9 @@ import {motion, useScroll, useTransform} from 'framer-motion'
 import { Link } from 'react-router-dom'
 import VideoPlayer from '../VideoPlayer'
 
+
+
+
 function AboutFest() {
 
     useEffect(() => {
@@ -20,8 +23,7 @@ function AboutFest() {
         <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">About <span className='font-josefin-sans font-bold'>AURA</span></motion.h1>
         <div className='flex justify-center items-center sm:flex-col xl:flex-row 2xl:flex-row flex-col sm:gap-[2rem] xl:gap-0 gap-[2rem]'>
             <motion.div variants={variants} initial='hidden' whileInView='visible' className='flex justify-center items-center'>
-                {/* <VideoPlayer videoURI="https://res.cloudinary.com/djqnbowat/video/upload/v1692314097/AURA_FEST_TEASER_a6pfva.mp4" thumbnail="https://res.cloudinary.com/djqnbowat/image/upload/v1692314572/teaser-thumbnail_vz5zgm.png"/> */}
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/35LKGKzq8T4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NviLmtbR3JU?si=ihMFCj3N_gh2QoIk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </motion.div>
             <motion.div variants={variants} initial='hidden' whileInView='visible' className='flex flex-col font-space-grotesk max-[280px]:text-[1.1rem] text-[0.9rem] sm:text-[1.2rem] gap-[1.2rem] text-justify sm:px-[2rem] px-0'>
                 <p>

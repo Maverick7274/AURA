@@ -3,6 +3,9 @@
 function Cards(props) {
   const cover = props.cover;
   const Heading = props.Heading;
+  const paragraph = props.paragraph;
+  const link = props.link;
+  const linkHeading = props.linkHeading;
 
   return (
     <div>
@@ -25,6 +28,12 @@ function Cards(props) {
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title text-[2rem] font-patua-one">{Heading}</h2>
+          <p className="font-space-grotesk">{paragraph}</p>
+          <div>
+            <a href={link} target="blank" className="link">
+              {linkHeading}
+            </a>
+          </div>
         </div>
       </div>
     </div>

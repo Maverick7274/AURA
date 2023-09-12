@@ -44,6 +44,7 @@ function Router() {
               <Route path="/Day2Photos" element={<Day2Photos/>}/>
               <Route path="/Day2Videos" element={<Day2Videos/>}/>
               <Route path="/events" element={<Events/>}/>
+              <Route path="/event/:eventName" element={<Events/>}/>
               <Route path="/celebrity" element={<Celebrity/>}/>
           </Routes>
         <Footer />

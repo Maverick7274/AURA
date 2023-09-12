@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import ButtonComponent from "../ButtonComponent";
 import Table from "./Table";
 
 function Events() {
@@ -18,11 +19,25 @@ function Events() {
         >
           Events
         </motion.h1>
-      </div>
+
+        
+
+    </div>
+
+
+    <div className='h-auto flex flex-col justify-center items-center gap-[5rem]'>
+
+        <div className='flex flex-wrap justify-center items-center gap-[3rem] sm:flex-row md:flex-col xl:flex-row'>
+          <ButtonComponent cover="https://res.cloudinary.com/dvxizqvwp/image/upload/v1694464456/ideathonPoster.jpg" link="/event/ideathon" Heading='Ideathon 2023'/>
+          <ButtonComponent cover="https://res.cloudinary.com/dvxizqvwp/image/upload/v1694464455/circuit-a-thon.jpg" link="/event/circuit-a-thon" Heading='Circuit-A-Thon'/>
+          <ButtonComponent cover="https://res.cloudinary.com/dvxizqvwp/image/upload/v1694468657/codathon.jpg" link="/event/codathon" Heading='Codathon 2.0'/>
+        </div>
+
+    </div>
 
 
         <div>
-            <Table />
+            {/* <Table /> */}
         </div>
 
     </div>

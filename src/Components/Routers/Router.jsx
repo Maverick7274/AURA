@@ -18,6 +18,7 @@ import OtherActivities from "../PastEvents/2022/OtherActivities"
 import PanacheFS from "../PastEvents/2022/PanacheFS"
 import Day2Photos from "../PastEvents/2022/Day2Photos"
 import Day2Videos from "../PastEvents/2022/Day2Videos"
+import EventPage from "../Events/EventPage"
 import Events from "../Events/Events"
 import Celebrity from "../Celebrity/Celebrity"
 
@@ -44,6 +45,7 @@ function Router() {
               <Route path="/Day2Photos" element={<Day2Photos/>}/>
               <Route path="/Day2Videos" element={<Day2Videos/>}/>
               <Route path="/events" element={<Events/>}/>
+              <Route path="/event/:eventName" element={<EventPage/>}/>
               <Route path="/celebrity" element={<Celebrity/>}/>
           </Routes>
         <Footer />

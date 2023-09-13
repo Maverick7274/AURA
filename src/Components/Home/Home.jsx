@@ -47,7 +47,7 @@ function Home() {
 
         <div className='flex flex-col justify-center items-center text-center sm:px-[0] px-[2rem] pt-[5rem]'>
           <motion.h1 variants={variants} initial='hidden' whileInView='visible' className="py-[1rem] min-[280px]:text-[1.7rem] sm:text-[4rem] text-[2rem] font-bold font-rubik">Schedule</motion.h1>
-          <motion.p variants={variants} initial='hidden' whileInView='visible' className='font-space-grotesk max-[280px]:text-[1.1rem] text-[0.9rem] sm:text-[2rem]'>Will be declared 7 days prior to the event. Stay updated with our <a href='https://www.instagram.com/aurafest.live/' className='link link-accent'>Instagram</a></motion.p>
+          <motion.p variants={variants} initial='hidden' whileInView='visible' className='font-space-grotesk max-[280px]:text-[1.1rem] text-[0.9rem] sm:text-[2rem]'>Will be declared 7 days prior to the event. Stay updated with our <a target='blank' href='https://www.instagram.com/aurafest.live/' className='link link-accent'>Instagram</a></motion.p>
         </div>
 
         {/* <Tabs tabContent={tabContent} setTabContent={setTabContent} visibility="visible" /> */}

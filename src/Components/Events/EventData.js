@@ -42,7 +42,16 @@ const eventData = {
         
         </p>
         `,
-        "photos": [],
+        "photos": [
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694600369/ideathonWinners.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694600368/IdeathonJury.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694600368/IdeathonGroup.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694600368/IdeathonProjection.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694600368/IdeathonJudges2.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694600368/IdeathonParticipant1.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694600368/IdeathonParticipant2.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694600367/IdeathonHosts.jpg",
+        ],
     },
 
     "circuit-a-thon": {
@@ -108,7 +117,17 @@ const eventData = {
         #Ideathon2023 #InnovationForChange #BeTheChange
         </p>
         `,
-        "photos": [],
+        "photos": [
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694601064/codathon/codathonReception.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694601064/codathon/codathonMeetup2.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694601064/codathon/codathonCrowd.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694601063/codathon/codathonParticipants1.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694601063/codathon/codathonParticipants2.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694601063/codathon/codathonParticipants3.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694601063/codathon/codathonMeetup3.jpg",
+            "https://res.cloudinary.com/dvxizqvwp/image/upload/v1694601064/codathon/codathonMeetup.jpg",
+
+        ],
     }
 }
 

@@ -38,6 +38,17 @@ const EventPage = () => {
       </div>
 
 
+      <div className="flex justify-evenly items-center flex-wrap mt-[5em]">
+        
+        { eventData[eventName].photos.map((img, index) => {
+          return(
+            <img src={img} alt="" key={index} className='h-[40vw]' />
+          )
+        })}
+
+      </div>
+
+
     </div>
 
   )

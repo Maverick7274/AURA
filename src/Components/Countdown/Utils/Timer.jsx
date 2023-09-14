@@ -40,10 +40,10 @@ function Timer({timerDays, timerHours, timerMinutes, timerSeconds})  {
 }
 
 Timer.defaultProps = {
-    timerDays: 10,
-    timerHours: 10,
-    timerMinutes: 10,
-    timerSeconds: 10
+    timerDays: 0,
+    timerHours: 0,
+    timerMinutes: 0,
+    timerSeconds: 0
 }
 
 export default Timer

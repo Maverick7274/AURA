@@ -60,10 +60,14 @@ function Hero() {
               animate="visible"
               transition={{ duration: 0.6 }}
             >
-              <Countdown />
+              
+              {/* <Countdown />
               <div className="sm:text-l text-xl pt-[1rem] font-space-mono tracking-widest">
                 Until the main event!
-              </div>
+              </div> */}
+              <div className="sm:text-l text-xl pt-[1rem] font-space-mono tracking-widest">
+                The event has ended!
+              </div> 
             </motion.div>
           </div>
         </div>

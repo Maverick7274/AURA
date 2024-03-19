@@ -66,7 +66,7 @@ function Hero() {
                 Until the main event!
               </div> */}
               <div className="sm:text-l text-xl pt-[1rem] font-space-mono tracking-widest">
-                The event has ended!
+                The event has ended! See you next year!
               </div> 
             </motion.div>
           </div>

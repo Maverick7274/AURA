@@ -27,7 +27,7 @@ function Router() {
     <>
         <Navbar />
           <Routes>
-              <Route path='/AURA-website/' element={<Home />} />
+              <Route path='/AURA-website' element={<Home />} />
               <Route path='/AURA-website/about' element={<About/>} />
               <Route path='/AURA-website/Highlights2022Day1' element={<HighLights2022Day1/>} />
               <Route path='/AURA-website/Highlights2022Day2' element={<HighLights2022Day2/>} />

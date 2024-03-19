@@ -27,26 +27,26 @@ function Router() {
     <>
         <Navbar />
           <Routes>
-              <Route path='/' element={<Home />} />
-              <Route path='/about' element={<About/>} />
-              <Route path='/Highlights2022Day1' element={<HighLights2022Day1/>} />
-              <Route path='/Highlights2022Day2' element={<HighLights2022Day2/>} />
-              <Route path="/PastYearEvents" element={<PastYearEvents/>}/>
-              <Route path="/contact" element={<Contact />}/>
-              <Route path="/CelebrityNight" element={<CelebrityNight/>}/>
-              <Route path="/PreEvent" element={<PreEvent/>}/>
-              <Route path="/FashionShow" element={<FashionShow/>}/>
-              <Route path="/Felicitation" element={<Felicitation/>}/>
-              <Route path="/PostEvent" element={<PostEvent/>}/>
-              <Route path="/Sponsors" element={<Sponsors/>}/>
-              <Route path="/AURA2022Days" element={<Days/>}/>
-              <Route path="/otherActivities" element={<OtherActivities/>}/>
-              <Route path="/PanacheFS" element={<PanacheFS/>}/>
-              <Route path="/Day2Photos" element={<Day2Photos/>}/>
-              <Route path="/Day2Videos" element={<Day2Videos/>}/>
-              <Route path="/events" element={<Events/>}/>
-              <Route path="/event/:eventName" element={<EventPage/>}/>
-              <Route path="/celebrity" element={<Celebrity/>}/>
+              <Route path='/AURA-website/' element={<Home />} />
+              <Route path='/AURA-website/about' element={<About/>} />
+              <Route path='/AURA-website/Highlights2022Day1' element={<HighLights2022Day1/>} />
+              <Route path='/AURA-website/Highlights2022Day2' element={<HighLights2022Day2/>} />
+              <Route path="/AURA-website/PastYearEvents" element={<PastYearEvents/>}/>
+              <Route path="/AURA-website/contact" element={<Contact />}/>
+              <Route path="/AURA-website/CelebrityNight" element={<CelebrityNight/>}/>
+              <Route path="/AURA-website/PreEvent" element={<PreEvent/>}/>
+              <Route path="/AURA-website/FashionShow" element={<FashionShow/>}/>
+              <Route path="/AURA-website/Felicitation" element={<Felicitation/>}/>
+              <Route path="/AURA-website/PostEvent" element={<PostEvent/>}/>
+              <Route path="/AURA-website/Sponsors" element={<Sponsors/>}/>
+              <Route path="/AURA-website/AURA2022Days" element={<Days/>}/>
+              <Route path="/AURA-website/otherActivities" element={<OtherActivities/>}/>
+              <Route path="/AURA-website/PanacheFS" element={<PanacheFS/>}/>
+              <Route path="/AURA-website/Day2Photos" element={<Day2Photos/>}/>
+              <Route path="/AURA-website/Day2Videos" element={<Day2Videos/>}/>
+              <Route path="/AURA-website/events" element={<Events/>}/>
+              <Route path="/AURA-website/event/:eventName" element={<EventPage/>}/>
+              <Route path="/AURA-website/celebrity" element={<Celebrity/>}/>
           </Routes>
         <Footer />
     </>
